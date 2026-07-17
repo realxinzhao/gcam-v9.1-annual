@@ -66,12 +66,7 @@ module_energy_L239.ff_trade <- function(command, ...) {
       production <- consumption <- GCAM_region_ID <- NULL # silence package check notes
 
     # Load required inputs ----
-    lapply(MODULE_INPUTS, function(d){
-      # get name as the char after last /
-      nm <- tail(strsplit(d, "/")[[1]], n = 1)
-      # get data and assign
-      assign(nm, get_data(all_data, d, strip_attributes = T),
-             envir = parent.env(environment()))  })
+    get_data_list(all_data, MODULE_INPUTS, strip_attributes = TRUE)
 
 
     # Keywords of global technologies

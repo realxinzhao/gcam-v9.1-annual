@@ -11,79 +11,61 @@
 #' the generated outputs: \code{gas_trade.xml}. The corresponding file in the
 #' original data system was \code{batch_en_supply_xml.R} (energy XML).
 module_energy_gas_trade_xml <- function(command, ...) {
+
+  MODULE_INPUTS <-
+    c("L2392.Delete_Supplysector_tra_NG",
+      "L2392.Delete_Supplysector_reg_NG",
+      "L2392.PrimaryConsKeyword_en_NG",
+      "L2392.CarbonCoef_NG",
+      "L2392.Supplysector_tra_NG",
+      "L2392.SectorUseTrialMarket_tra_NG",
+      "L2392.SubsectorAll_tra_NG",
+      "L2392.TechShrwt_tra_NG",
+      "L2392.TechCost_tra_NG",
+      "L2392.TechCoef_tra_NG",
+      "L2392.TechLifetime_tra_NG",
+      "L2392.TechSCurve_tra_NG",
+      "L2392.ProfitShutdown_tra_NG",
+      "L2392.Supplysector_reg_NG",
+      "L2392.NestingSubsectorAll_reg_NG",
+      "L2392.SubsectorAll_reg_NG",
+      "L2392.TechShrwt_reg_NG",
+      "L2392.TechCost_reg_NG",
+      "L2392.TechCoef_reg_NG",
+      "L2392.TechLifetime_reg_NG",
+      "L2392.TechSCurve_reg_NG",
+      "L2392.ProfitShutdown_reg_NG",
+      "L2392.TechInterp_reg_NG",
+      "L2392.Production_tra_NG",
+      "L2392.Production_reg_imp_NG",
+      "L2392.Production_reg_dom_NG",
+      "L281.TechAccountOutput_entrade",
+      "L281.TechAccountInput_NG_entrade")
+
+  MODULE_OUTPUTS <-
+    c("gas_trade.xml")
+
   if(command == driver.DECLARE_INPUTS) {
-    return(c("L2392.Delete_Supplysector_tra_NG",
-             "L2392.Delete_Supplysector_reg_NG",
-             "L2392.PrimaryConsKeyword_en_NG",
-             "L2392.CarbonCoef_NG",
-             "L2392.Supplysector_tra_NG",
-             "L2392.SectorUseTrialMarket_tra_NG",
-             "L2392.SubsectorAll_tra_NG",
-             "L2392.TechShrwt_tra_NG",
-             "L2392.TechCost_tra_NG",
-             "L2392.TechCoef_tra_NG",
-             "L2392.TechLifetime_tra_NG",
-             "L2392.TechSCurve_tra_NG",
-             "L2392.ProfitShutdown_tra_NG",
-             "L2392.Supplysector_reg_NG",
-             "L2392.NestingSubsectorAll_reg_NG",
-             "L2392.SubsectorAll_reg_NG",
-             "L2392.TechShrwt_reg_NG",
-             "L2392.TechCost_reg_NG",
-             "L2392.TechCoef_reg_NG",
-             "L2392.TechLifetime_reg_NG",
-             "L2392.TechSCurve_reg_NG",
-             "L2392.ProfitShutdown_reg_NG",
-             "L2392.TechInterp_reg_NG",
-             "L2392.Production_tra_NG",
-             "L2392.Production_reg_imp_NG",
-             "L2392.Production_reg_dom_NG",
-             "L281.TechAccountOutput_entrade",
-             "L281.TechAccountInput_NG_entrade"))
+    return(MODULE_INPUTS)
   } else if(command == driver.DECLARE_OUTPUTS) {
-    return(c(XML = "gas_trade.xml"))
+    return(MODULE_OUTPUTS)
   } else if(command == driver.MAKE) {
 
     all_data <- list(...)[[1]]
 
-    L2392.Delete_Supplysector_reg_NG <- get_data(all_data, "L2392.Delete_Supplysector_reg_NG")
-    L2392.Delete_Supplysector_tra_NG <- get_data(all_data, "L2392.Delete_Supplysector_tra_NG")
-    L2392.PrimaryConsKeyword_en_NG <- get_data(all_data, "L2392.PrimaryConsKeyword_en_NG")
-    L2392.Supplysector_tra_NG <- get_data(all_data, "L2392.Supplysector_tra_NG")
-    L2392.SectorUseTrialMarket_tra_NG <- get_data(all_data, "L2392.SectorUseTrialMarket_tra_NG")
-    L2392.SubsectorAll_tra_NG <- get_data(all_data, "L2392.SubsectorAll_tra_NG")
-    L2392.TechShrwt_tra_NG <- get_data(all_data, "L2392.TechShrwt_tra_NG")
-    L2392.TechCost_tra_NG <- get_data(all_data, "L2392.TechCost_tra_NG")
-    L2392.TechCoef_tra_NG <- get_data(all_data, "L2392.TechCoef_tra_NG")
-    L2392.TechLifetime_tra_NG <- get_data(all_data, "L2392.TechLifetime_tra_NG")
-    L2392.TechSCurve_tra_NG <- get_data(all_data, "L2392.TechSCurve_tra_NG")
-    L2392.ProfitShutdown_tra_NG <- get_data(all_data, "L2392.ProfitShutdown_tra_NG")
-    L2392.Supplysector_reg_NG <- get_data(all_data, "L2392.Supplysector_reg_NG")
-    L2392.NestingSubsectorAll_reg_NG <- get_data(all_data, "L2392.NestingSubsectorAll_reg_NG")
+    # Load required inputs ----
+    get_data_list(all_data, MODULE_INPUTS, strip_attributes = TRUE)
 
-    L2392.SubsectorLogit_reg_NG <- get_data(all_data, "L2392.SubsectorAll_reg_NG") %>%
+    L2392.SubsectorLogit_reg_NG <- L2392.SubsectorAll_reg_NG %>%
       select(LEVEL2_DATA_NAMES[["SubsectorLogit"]], "subsector0") %>%
       mutate(logit.type = "relative-cost-logit")
-    L2392.SubsectorShrwt_reg_NG <- get_data(all_data, "L2392.SubsectorAll_reg_NG") %>%
+    L2392.SubsectorShrwt_reg_NG <- L2392.SubsectorAll_reg_NG %>%
       select(LEVEL2_DATA_NAMES[["SubsectorShrwtFllt"]], "subsector0")
-    L2392.SubsectorInterp_reg_NG <- get_data(all_data, "L2392.SubsectorAll_reg_NG") %>%
+    L2392.SubsectorInterp_reg_NG <- L2392.SubsectorAll_reg_NG %>%
       select(LEVEL2_DATA_NAMES[["SubsectorInterpTo"]], "subsector0")
 
-    L2392.TechShrwt_reg_NG <- get_data(all_data, "L2392.TechShrwt_reg_NG")
-    L2392.TechCoef_reg_NG <- get_data(all_data, "L2392.TechCoef_reg_NG")
-    L2392.TechCost_reg_NG <- get_data(all_data, "L2392.TechCost_reg_NG")
-    L2392.TechLifetime_reg_NG <- get_data(all_data, "L2392.TechLifetime_reg_NG")
-    L2392.TechSCurve_reg_NG <- get_data(all_data, "L2392.TechSCurve_reg_NG")
-    L2392.ProfitShutdown_reg_NG <- get_data(all_data, "L2392.ProfitShutdown_reg_NG")
-    L2392.TechInterp_reg_NG <- get_data(all_data, "L2392.TechInterp_reg_NG")
-    L2392.Production_tra_NG <- get_data(all_data, "L2392.Production_tra_NG")
-    L2392.Production_reg_imp_NG <- get_data(all_data, "L2392.Production_reg_imp_NG")
-    L2392.Production_reg_dom_NG <- get_data(all_data, "L2392.Production_reg_dom_NG")
-    L2392.CarbonCoef_NG <- get_data(all_data, "L2392.CarbonCoef_NG")
-    L281.TechAccountInput_NG_entrade <- get_data(all_data, "L281.TechAccountInput_NG_entrade")
-
     # filter for only gas trade
-    L281.TechAccountOutput_entrade <- get_data(all_data, "L281.TechAccountOutput_entrade") %>%
+    L281.TechAccountOutput_entrade <- L281.TechAccountOutput_entrade %>%
         filter(supplysector %in% unique(L2392.TechCoef_tra_NG$supplysector))
 
 
@@ -141,37 +123,10 @@ module_energy_gas_trade_xml <- function(command, ...) {
       add_node_equiv_xml("subsector") %>%
 
 
-      add_precursors("L2392.Delete_Supplysector_tra_NG",
-                     "L2392.Delete_Supplysector_reg_NG",
-                     "L2392.PrimaryConsKeyword_en_NG",
-                     "L2392.CarbonCoef_NG",
-                     "L2392.Supplysector_tra_NG",
-                     "L2392.SectorUseTrialMarket_tra_NG",
-                     "L2392.SubsectorAll_tra_NG",
-                     "L2392.TechShrwt_tra_NG",
-                     "L2392.TechCost_tra_NG",
-                     "L2392.TechLifetime_tra_NG",
-                     "L2392.TechSCurve_tra_NG",
-                     "L2392.ProfitShutdown_tra_NG",
-                     "L2392.TechCoef_tra_NG",
-                     "L2392.Supplysector_reg_NG",
-                     "L2392.NestingSubsectorAll_reg_NG",
-                     "L2392.SubsectorAll_reg_NG",
-                     "L2392.TechShrwt_reg_NG",
-                     "L2392.TechCoef_reg_NG",
-                     "L2392.TechCost_reg_NG",
-                     "L2392.TechLifetime_reg_NG",
-                     "L2392.TechSCurve_reg_NG",
-                     "L2392.ProfitShutdown_reg_NG",
-                     "L2392.TechInterp_reg_NG",
-                     "L2392.Production_tra_NG",
-                     "L2392.Production_reg_imp_NG",
-                     "L2392.Production_reg_dom_NG",
-                     "L281.TechAccountOutput_entrade",
-                     "L281.TechAccountInput_NG_entrade") ->
+      add_precursors(MODULE_INPUTS) ->
       gas_trade.xml
 
-    return_data(gas_trade.xml)
+    return_data(MODULE_OUTPUTS)
   } else {
     stop("Unknown command")
   }

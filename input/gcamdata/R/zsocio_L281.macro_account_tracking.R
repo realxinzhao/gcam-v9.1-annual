@@ -52,6 +52,9 @@ module_socio_L281.macro_account_tracking <- function(command, ...) {
       "L243.GlobalTechCoef_TotBio",
       "L2392.TechCoef_tra_NG",
       "L2392.TechCoef_reg_NG",
+      # Ammonia trade
+      "L2322.StubTechMarket_FertImports",
+      "L2322.TechCoef_TradedFert",
       # Ag trade tracking
       "L240.TechCoef_reg",
       "L240.TechCoef_tra",
@@ -333,19 +336,20 @@ module_socio_L281.macro_account_tracking <- function(command, ...) {
       L281.TrialValueResource
 
 
-    # (4) trade tracking ----
+    # (4) Trade tracking ----
 
+    ## Energy (incl ammonia) export tracking ----
     # Note: this table will produce gas trade both the "old" way and the LNG/pipeline way
     # the batch chunks will need to filer accordingly and in this way we can still support
     # running with either gas trade approach
     L239.TechCoef_tra %>%
       bind_rows(L243.TechCoef_TradedBio,
                 # TODO: statistical differences?
-                L2392.TechCoef_tra_NG %>% filter(grepl('traded', supplysector))
+                L2392.TechCoef_tra_NG %>% filter(grepl('traded', supplysector)),
+                L2322.TechCoef_TradedFert
       ) ->
       en_export
 
-    ## Net fossil energy trade calculations ----
     en_export %>%
       rename(output.accounting = minicam.energy.input,
              output.ratio = coefficient) %>%
@@ -353,9 +357,13 @@ module_socio_L281.macro_account_tracking <- function(command, ...) {
              output.ratio = -1.0) ->
       L281.TechAccountOutput_entrade
 
-    L239.TechCoef_reg %>%
-      filter(grepl('import', subsector)) %>%
-      select("region", "supplysector", "subsector", "technology", "year", "input.accounting" = "minicam.energy.input") %>%
+    ## Energy (incl ammonia) import tracking ----
+    bind_rows(
+      # coal, oil, natural gas (old)
+      L239.TechCoef_reg %>%
+        filter(grepl('import', subsector)) %>%
+        select("region", "supplysector", "subsector", "technology", "year", "input.accounting" = "minicam.energy.input")
+      ) %>%
       # Note: the AccountingInput can be used track the physical output as well as the currency
       # for energy trade we are just interested in the currency tracking, thus tracking.market is empty
       mutate(tracking.market = "",
@@ -371,17 +379,26 @@ module_socio_L281.macro_account_tracking <- function(command, ...) {
              currency.tracking.market = socioeconomics.EN_TRADE_NAME) ->
       L281.TechAccountInput_NG_entrade
 
-    L243.GlobalTechCoef_TotBio %>%
-      filter(grepl('import', subsector.name)) %>%
-      select("sector.name", "subsector.name", "technology", "year", "input.accounting" = "minicam.energy.input") %>%
+    bind_rows(
+      # ammonia
+      L2322.StubTechMarket_FertImports %>%
+        filter(grepl('import', subsector)) %>%
+        select(-region) %>% distinct() %>%
+        select("sector.name" = "supplysector", "subsector.name" = "subsector", "technology" = "stub.technology",
+               "year", "input.accounting" = "minicam.energy.input"),
+      # biomass
+      L243.GlobalTechCoef_TotBio %>%
+        filter(grepl('import', subsector.name)) %>%
+        select("sector.name", "subsector.name", "technology", "year", "input.accounting" = "minicam.energy.input")
+    ) %>%
       # Note: the AccountingInput can be used track the physical output as well as the currency
       # for energy trade we are just interested in the currency tracking, thus tracking.market is empty
       mutate(tracking.market = "",
              currency.tracking.market = socioeconomics.EN_TRADE_NAME) ->
       L281.GlobalTechAccountInput_entrade
 
-    ## Ag trade tracking ----
-    ### ag import tracking ----
+
+    ## Ag import tracking ----
     L240.TechCoef_reg %>%
       filter(grepl('import', subsector)) %>%
       select("region", "supplysector", "subsector", "technology", "year", "input.accounting" = "minicam.energy.input") %>%
@@ -391,7 +408,7 @@ module_socio_L281.macro_account_tracking <- function(command, ...) {
              currency.tracking.market = socioeconomics.EN_TRADE_NAME) ->
       L281.TechAccountInput_agtrade
 
-    ### ag export tracking ----
+    ## Ag export tracking ----
     L240.TechCoef_tra %>%
       rename(output.accounting = minicam.energy.input,
              output.ratio = coefficient) %>%
@@ -402,17 +419,17 @@ module_socio_L281.macro_account_tracking <- function(command, ...) {
 
     # Produce outputs ----
     L281.TechAccountOutput_entrade %>%
-      add_title("Net energy trade / exports accounting in supplysectors") %>%
+      add_title("Net energy trade / exports (incl ammonia) accounting in supplysectors") %>%
       add_units("Unitless") %>%
       add_comments("Sets up accounting secondary outputs to track regional exports of primary energy") %>%
-      add_precursors("L239.TechCoef_tra", "L243.TechCoef_TradedBio", "L2392.TechCoef_tra_NG") ->
+      add_precursors("L239.TechCoef_tra", "L243.TechCoef_TradedBio", "L2392.TechCoef_tra_NG", "L2322.TechCoef_TradedFert") ->
       L281.TechAccountOutput_entrade
 
     L281.TechAccountInput_entrade %>%
-      add_title("Net energy trade / imports accounting in supplysectors") %>%
+      add_title("Net energy trade / imports (incl ammonia) accounting in supplysectors") %>%
       add_units("Unitless") %>%
       add_comments("Sets up accounting inputs to track regional imports of primary energy") %>%
-      add_precursors("L239.TechCoef_reg") ->
+      add_precursors("L239.TechCoef_reg", "L2322.StubTechMarket_FertImports") ->
       L281.TechAccountInput_entrade
 
     L281.TechAccountInput_NG_entrade %>%

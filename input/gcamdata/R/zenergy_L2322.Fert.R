@@ -21,63 +21,57 @@
 #' @importFrom tidyr complete nesting
 #' @author LF September 2017
 module_energy_L2322.Fert <- function(command, ...) {
+
+  MODULE_INPUTS <-
+    c(FILE = "common/GCAM_region_names",
+      FILE = "energy/calibrated_techs",
+      FILE = "energy/A322.sector",
+      FILE = "energy/A322.subsector_interp",
+      FILE = "energy/A322.subsector_logit",
+      FILE = "energy/A322.subsector_shrwt",
+      FILE = "energy/A322.globaltech_coef",
+      FILE = "energy/A322.globaltech_shrwt",
+      FILE = "energy/A322.globaltech_co2capture",
+      FILE = "energy/A322.globaltech_retirement",
+      "L1322.Fert_Prod_MtNH3_R_F_Y",
+      "L1322.IO_R_Fert_F_Yh",
+      "L1322.Fert_NEcost_75USDkgNH3_F",
+      "L1322.Fert_GrossTrade_Mt_R_Y")
+
+  MODULE_OUTPUTS <-
+    c("L2322.Supplysector_Fert",
+      "L2322.SectorUseTrialMarket_tra",
+      "L2322.FinalEnergyKeyword_Fert",
+      "L2322.SubsectorLogit_Fert",
+      "L2322.SubsectorShrwtFllt_Fert",
+      "L2322.SubsectorInterp_Fert",
+      "L2322.StubTech_Fert",
+      "L2322.GlobalTechShrwt_Fert",
+      "L2322.TechShrwt_TradedFert",
+      "L2322.GlobalTechCoef_Fert",
+      "L2322.TechCoef_TradedFert",
+      "L2322.StubTechMarket_FertImports",
+      "L2322.GlobalTechCost_Fert",
+      "L2322.GlobalTechCapture_Fert",
+      "L2322.GlobalTechSCurve_Fert",
+      "L2322.GlobalTechProfitShutdown_Fert",
+      "L2322.StubTechProd_FertProd",
+      "L2322.StubTechCoef_Fert",
+      "L2322.Production_FertExport",
+      "L2322.StubTechProd_FertImport",
+      "L2322.StubTechProd_FertDomCons",
+      "L2322.StubTechProd_NtoAg")
+
   if(command == driver.DECLARE_INPUTS) {
-    return(c(FILE = "common/GCAM_region_names",
-             FILE = "energy/calibrated_techs",
-             FILE = "energy/A322.sector",
-             FILE = "energy/A322.subsector_interp",
-             FILE = "energy/A322.subsector_logit",
-             FILE = "energy/A322.subsector_shrwt",
-             FILE = "energy/A322.globaltech_coef",
-             FILE = "energy/A322.globaltech_shrwt",
-             FILE = "energy/A322.globaltech_co2capture",
-             FILE = "energy/A322.globaltech_retirement",
-             "L1322.Fert_Prod_MtNH3_R_F_Y",
-             "L1322.IO_R_Fert_F_Yh",
-             "L1322.Fert_NEcost_75USDkgNH3_F",
-             "L1322.Fert_GrossTrade_Mt_R_Y"))
+    return(MODULE_INPUTS)
   } else if(command == driver.DECLARE_OUTPUTS) {
-    return(c("L2322.Supplysector_Fert",
-             "L2322.SectorUseTrialMarket_tra",
-             "L2322.FinalEnergyKeyword_Fert",
-             "L2322.SubsectorLogit_Fert",
-             "L2322.SubsectorShrwtFllt_Fert",
-             "L2322.SubsectorInterp_Fert",
-             "L2322.StubTech_Fert",
-             "L2322.GlobalTechShrwt_Fert",
-             "L2322.TechShrwt_TradedFert",
-             "L2322.GlobalTechCoef_Fert",
-             "L2322.TechCoef_TradedFert",
-             "L2322.StubTechMarket_FertImports",
-             "L2322.GlobalTechCost_Fert",
-             "L2322.GlobalTechCapture_Fert",
-             "L2322.GlobalTechSCurve_Fert",
-             "L2322.GlobalTechProfitShutdown_Fert",
-             "L2322.StubTechProd_FertProd",
-             "L2322.StubTechCoef_Fert",
-             "L2322.Production_FertExport",
-             "L2322.StubTechProd_FertImport",
-             "L2322.StubTechProd_FertDomCons",
-             "L2322.StubTechProd_NtoAg"))
+    return(MODULE_OUTPUTS)
   } else if(command == driver.MAKE) {
 
     all_data <- list(...)[[1]]
 
-    # Load required inputs
-    GCAM_region_names <- get_data(all_data, "common/GCAM_region_names")
-    calibrated_techs <- get_data(all_data, "energy/calibrated_techs")
-    A322.sector <- get_data(all_data, "energy/A322.sector", strip_attributes = TRUE)
-    A322.subsector_interp <- get_data(all_data, "energy/A322.subsector_interp", strip_attributes = TRUE)
-    A322.subsector_logit <- get_data(all_data, "energy/A322.subsector_logit", strip_attributes = TRUE)
-    A322.subsector_shrwt <- get_data(all_data, "energy/A322.subsector_shrwt", strip_attributes = TRUE)
-    A322.globaltech_coef <- get_data(all_data, "energy/A322.globaltech_coef")
-    A322.globaltech_shrwt <- get_data(all_data, "energy/A322.globaltech_shrwt", strip_attributes = TRUE)
-    A322.globaltech_co2capture <- get_data(all_data, "energy/A322.globaltech_co2capture")
-    A322.globaltech_retirement <- get_data(all_data, "energy/A322.globaltech_retirement", strip_attributes = TRUE)
-    L1322.Fert_Prod_MtNH3_R_F_Y <- get_data(all_data, "L1322.Fert_Prod_MtNH3_R_F_Y", strip_attributes = TRUE)
-    L1322.IO_R_Fert_F_Yh <- get_data(all_data, "L1322.IO_R_Fert_F_Yh", strip_attributes = TRUE)
-    L1322.Fert_NEcost_75USDkgNH3_F <- get_data(all_data, "L1322.Fert_NEcost_75USDkgNH3_F")
-    L1322.Fert_GrossTrade_Mt_R_Y <- get_data(all_data, "L1322.Fert_GrossTrade_Mt_R_Y", strip_attributes = TRUE)
+    # Load required inputs ----
+    get_data_list(all_data, MODULE_INPUTS, strip_attributes = TRUE)
 
     # ===================================================
     # 0. Give binding for variable names used in pipeline
@@ -561,15 +555,7 @@ module_energy_L2322.Fert <- function(command, ...) {
       L2322.StubTechProd_NtoAg
 
 
-    return_data(L2322.Supplysector_Fert, L2322.SectorUseTrialMarket_tra,
-                L2322.FinalEnergyKeyword_Fert, L2322.SubsectorLogit_Fert,
-                L2322.SubsectorShrwtFllt_Fert, L2322.SubsectorInterp_Fert,
-                L2322.StubTech_Fert, L2322.GlobalTechShrwt_Fert, L2322.TechShrwt_TradedFert,
-                L2322.GlobalTechCoef_Fert, L2322.TechCoef_TradedFert, L2322.StubTechMarket_FertImports,
-                L2322.GlobalTechCost_Fert, L2322.GlobalTechCapture_Fert, L2322.GlobalTechSCurve_Fert,
-                L2322.GlobalTechProfitShutdown_Fert, L2322.StubTechProd_FertProd, L2322.StubTechCoef_Fert,
-                L2322.Production_FertExport, L2322.StubTechProd_FertImport, L2322.StubTechProd_FertDomCons,
-                L2322.StubTechProd_NtoAg)
+    return_data(MODULE_OUTPUTS)
   } else {
     stop("Unknown command")
   }
