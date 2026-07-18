@@ -317,6 +317,18 @@ module_energy_L244.building_det <- function(command, ...) {
       bind_rows(income_shares_hist) ->
       L144.income_shares
 
+    # Interpolate future income shares to annual MODEL_FUTURE_YEARS
+    # (income_shares source data is at 5-year intervals; MODEL_FUTURE_YEARS is now annual)
+    L144.income_shares <- L144.income_shares %>%
+      filter(scen != socioeconomics.BASE_INCSHARE_BASE) %>%
+      tidyr::expand(tidyr::nesting(GCAM_region_ID, group, scen), year = MODEL_FUTURE_YEARS) %>%
+      left_join(L144.income_shares %>% filter(scen != socioeconomics.BASE_INCSHARE_BASE),
+                by = c("GCAM_region_ID", "group", "scen", "year")) %>%
+      group_by(GCAM_region_ID, group, scen) %>%
+      mutate(share = approx_fun(year, share)) %>%
+      ungroup() %>%
+      bind_rows(L144.income_shares %>% filter(scen == socioeconomics.BASE_INCSHARE_BASE))
+
     # Adjust gcam.consumer file to add the multiple consumers combining the raw file with multiple consumer information
     A44.gcam_consumer<-A44.gcam_consumer %>%
       filter(gcam.consumer == "resid") %>%

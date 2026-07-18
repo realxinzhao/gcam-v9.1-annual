@@ -82,7 +82,7 @@ module_socio_L102.GDP <- function(command, ...) {
     L100.GDP_bilusd_SSP_ctry_Yfut_raw %>%
       left_join_error_no_match(iso_region32_lookup, by = 'iso') %>%
       group_by(scenario, GCAM_region_ID, year) %>%
-      summarize(gdp = sum(gdp, na.rm = T)) %>%
+      summarize(gdp = sum(gdp, na.rm = T), .groups = "drop") %>%
       # The steps below write out the data to all future years, starting from the final socio historical year
       complete(nesting(scenario, GCAM_region_ID), year = c(socioeconomics.FINAL_HIST_YEAR, FUTURE_YEARS)) %>%
       group_by(scenario, GCAM_region_ID) %>%
@@ -146,7 +146,7 @@ module_socio_L102.GDP <- function(command, ...) {
           filter(!(GCAM_region_ID %in% GDP_Adj_No_Neg_Growth_GCAM_region_ID & year >= socioeconomics.GDP_ADJ_NO_NEG_GROWTH_YEAR))
       ) %>%
       arrange(GCAM_region_ID, scenario, year) %>%
-      filter(year >= min(HISTORICAL_YEARS)) ->
+      filter(year >= min(HISTORICAL_YEARS), year <= max(FUTURE_YEARS)) ->
       gdp.mil90usd.scen.rgn.yr
 
 

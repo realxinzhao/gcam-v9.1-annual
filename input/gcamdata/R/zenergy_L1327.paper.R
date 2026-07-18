@@ -368,16 +368,17 @@ module_energy_L1327.paper <- function(command, ...) {
     A327.globaltech_coef %>%
       select(technology) %>%
       repeat_add_columns(tibble(year = c(HISTORICAL_YEARS, FUTURE_YEARS))) %>%
-      left_join(A327.globaltech_coef %>%
-                  gather(-c(supplysector, subsector, technology, minicam.energy.input, secondary.output) , key = 'year', value = 'coef') %>%
-                  select(technology, year, coef) %>% mutate(year = as.numeric(year)),
-                by = c("technology", "year")) %>%
-      group_by(technology) %>%
-      mutate(coef = approx_fun(year, coef, rule=2)) %>%
+      left_join(
+        A327.globaltech_coef %>%
+          gather(-c(supplysector, subsector, technology, minicam.energy.input, secondary.output) , key = 'year', value = 'coef') %>%
+          select(technology, year, coef) %>% mutate(year = as.numeric(year))|>
+          complete(technology, year = c(HISTORICAL_YEARS, FUTURE_YEARS)) |>
+          group_by(technology) %>%
+          mutate(coef = approx_fun(year, coef, rule=2)) |> ungroup(),
+        by = c("technology", "year")) %>%
       filter(year %in% HISTORICAL_YEARS) %>%
       distinct() %>%
-      na.omit() %>%
-      ungroup() ->
+      na.omit() ->
       L1327.globaltech_coef_process_heat
 
     process_heat_techs <- unique(A327.globaltech_coef %>% filter(grepl("process heat", supplysector)))$technology

@@ -147,17 +147,17 @@ module_aglu_L2083.ag_factor_productivity_scen <- function(command, ...) {
       group_by_at(vars(-year, -value)) %>%
       mutate(CumYearStep = year - first(year),
              AnnualGrowth = value ^(1/CumYearStep) - 1,
-             AnnualGrwoth2100 = AnnualGrowth[year == 2100],
+             AnnualGrwoth2100 = AnnualGrowth[year == max(MODEL_FUTURE_YEARS)],
              LandProductivity_smoothed = (1 + AnnualGrwoth2100)^CumYearStep,
              LandProductivity_smoothed2X = (1 + AnnualGrwoth2100 *2)^CumYearStep,
              LandProductivity_smoothed3X = (1 + AnnualGrwoth2100 *3)^CumYearStep,
              LandProductivity_smoothed4X = (1 + AnnualGrwoth2100 *4)^CumYearStep,
              # using generalized methods here; power function to reshape log linear to less convex
-             CumTimeProgress_S = (year - first(year)) / (2100 - first(year)),
-             LandProductivity_shaped   = (LandProductivity_smoothed[year == 2100])^(CumTimeProgress_S^alpha),
-             LandProductivity_shaped2X = (LandProductivity_smoothed2X[year == 2100])^(CumTimeProgress_S^alpha),
-             LandProductivity_shaped3X = (LandProductivity_smoothed3X[year == 2100])^(CumTimeProgress_S^alpha),
-             LandProductivity_shaped4X = (LandProductivity_smoothed4X[year == 2100])^(CumTimeProgress_S^alpha)) %>%
+             CumTimeProgress_S = (year - first(year)) / (max(MODEL_FUTURE_YEARS) - first(year)),
+             LandProductivity_shaped   = (LandProductivity_smoothed[year == max(MODEL_FUTURE_YEARS)])^(CumTimeProgress_S^alpha),
+             LandProductivity_shaped2X = (LandProductivity_smoothed2X[year == max(MODEL_FUTURE_YEARS)])^(CumTimeProgress_S^alpha),
+             LandProductivity_shaped3X = (LandProductivity_smoothed3X[year == max(MODEL_FUTURE_YEARS)])^(CumTimeProgress_S^alpha),
+             LandProductivity_shaped4X = (LandProductivity_smoothed4X[year == max(MODEL_FUTURE_YEARS)])^(CumTimeProgress_S^alpha)) %>%
       select(-CumYearStep, -AnnualGrowth, -AnnualGrwoth2100, -CumTimeProgress_S) %>%
       ungroup() %>%
       left_join_error_no_match(
@@ -198,7 +198,8 @@ module_aglu_L2083.ag_factor_productivity_scen <- function(command, ...) {
       mutate(coefficient =
                if_else(minicam.energy.input == socioeconomics.LABOR_AG_MARKET_NAME,
                       coefficient * LaborIO_Scaler,
-                      coefficient)) %>%
+                      coefficient),
+             coefficient = round(coefficient, aglu.DIGITS_CALOUTPUT)) %>%
       # apply tfp to labor only: coefficient includes both labor and capital IO
       ungroup() %>%
       select(colnames(L2082.AgCoef_laborcapital_ag_irr_mgmt)) ->
@@ -209,7 +210,8 @@ module_aglu_L2083.ag_factor_productivity_scen <- function(command, ...) {
       mutate(coefficient =
                if_else(minicam.energy.input == socioeconomics.LABOR_AG_MARKET_NAME,
                       coefficient * LaborIO_Scaler,
-                      coefficient)) %>% # apply tfp to labor only: coefficient includes both labor and capital IO
+                      coefficient),
+             coefficient = round(coefficient, aglu.DIGITS_CALOUTPUT)) %>% # apply tfp to labor only: coefficient includes both labor and capital IO
       ungroup() %>%
       select(colnames(L2082.AgCoef_laborcapital_bio_irr_mgmt)) ->
       L2083.AgCoef_laborcapital_bio_irr_mgmt_tfp_MA
@@ -219,7 +221,8 @@ module_aglu_L2083.ag_factor_productivity_scen <- function(command, ...) {
       mutate(coefficient =
                if_else(minicam.energy.input == socioeconomics.LABOR_AG_MARKET_NAME,
                       coefficient * LaborIO_Scaler,
-                      coefficient)) %>% # apply tfp to labor only: coefficient includes both labor and capital IO
+                      coefficient),
+             coefficient = round(coefficient, aglu.DIGITS_CALOUTPUT)) %>% # apply tfp to labor only: coefficient includes both labor and capital IO
       ungroup() %>%
       select(colnames(L2082.StubTechCoef_laborcapital_an)) ->
       L2083.StubTechCoef_laborcapital_an_tfp_MA
@@ -229,7 +232,8 @@ module_aglu_L2083.ag_factor_productivity_scen <- function(command, ...) {
       mutate(coefficient =
                if_else(minicam.energy.input == socioeconomics.LABOR_AG_MARKET_NAME,
                       coefficient * LaborIO_Scaler,
-                      coefficient)) %>% # apply tfp to labor only: coefficient includes both labor and capital IO
+                      coefficient),
+             coefficient = round(coefficient, aglu.DIGITS_CALOUTPUT)) %>% # apply tfp to labor only: coefficient includes both labor and capital IO
       ungroup() %>%
       select(colnames(L2082.AgCoef_laborcapital_for)) ->
       L2083.AgCoef_laborcapital_for_tfp_MA
@@ -254,7 +258,10 @@ module_aglu_L2083.ag_factor_productivity_scen <- function(command, ...) {
 
 
     L2083.AgCoef_laborcapital_ag_irr_mgmt_tfp_MA %>%
-      mutate(price.unit.conversion = if_else(minicam.energy.input == socioeconomics.LABOR_AG_MARKET_NAME, 1 / gdp_deflator(1990, 1975) / 1000, 1)) %>%  # (1990 $/ppl) to (thou 1975 $/ppl)
+      mutate(price.unit.conversion =
+               if_else(minicam.energy.input == socioeconomics.LABOR_AG_MARKET_NAME,
+                       round(1 / gdp_deflator(1990, 1975) / 1000, aglu.DIGITS_CALOUTPUT),
+                       1)) %>%  # (1990 $/ppl) to (thou 1975 $/ppl)
       add_title("labor and capital coefficients for agricultural technologies with MA tfp") %>%
       add_units("index") %>%
       add_comments("Note: we are using theta to differentiate coefficient across four management technologies (irrigated, rainfed, hi and lo") %>%
@@ -263,7 +270,10 @@ module_aglu_L2083.ag_factor_productivity_scen <- function(command, ...) {
       L2083.AgCoef_laborcapital_ag_irr_mgmt_tfp_MA
 
     L2083.AgCoef_laborcapital_bio_irr_mgmt_tfp_MA %>%
-      mutate(price.unit.conversion = if_else(minicam.energy.input == socioeconomics.LABOR_AG_MARKET_NAME, 1 / gdp_deflator(1990, 1975) / 1000, 1)) %>%  # (1990 $/ppl) to (thou 1975 $/ppl)
+      mutate(price.unit.conversion =
+               if_else(minicam.energy.input == socioeconomics.LABOR_AG_MARKET_NAME,
+                       round(1 / gdp_deflator(1990, 1975) / 1000, aglu.DIGITS_CALOUTPUT),
+                       1)) %>%  # (1990 $/ppl) to (thou 1975 $/ppl)
       add_title("labor and capital coefficients for bioenergy technologies with MA tfp") %>%
       add_units("index") %>%
       add_comments("Compute bioenergy labor and capital coefficients") %>%
@@ -272,7 +282,10 @@ module_aglu_L2083.ag_factor_productivity_scen <- function(command, ...) {
       L2083.AgCoef_laborcapital_bio_irr_mgmt_tfp_MA
 
     L2083.StubTechCoef_laborcapital_an_tfp_MA %>%
-      mutate(price.unit.conversion = if_else(minicam.energy.input == socioeconomics.LABOR_AG_MARKET_NAME, 1 / gdp_deflator(1990, 1975) / 1000, 1)) %>%  # (1990 $/ppl) to (thou 1975 $/ppl)
+      mutate(price.unit.conversion =
+               if_else(minicam.energy.input == socioeconomics.LABOR_AG_MARKET_NAME,
+                       round(1 / gdp_deflator(1990, 1975) / 1000, aglu.DIGITS_CALOUTPUT),
+                       1)) %>%  # (1990 $/ppl) to (thou 1975 $/ppl)
       add_title("labor and capital coefficients for livestock technologies with MA tfp") %>%
       add_units("index") %>%
       add_comments("labor and capital coefficients for livestock sectors except fish") %>%
@@ -281,7 +294,10 @@ module_aglu_L2083.ag_factor_productivity_scen <- function(command, ...) {
       L2083.StubTechCoef_laborcapital_an_tfp_MA
 
     L2083.AgCoef_laborcapital_for_tfp_MA %>%
-      mutate(price.unit.conversion = if_else(minicam.energy.input == socioeconomics.LABOR_AG_MARKET_NAME, 1 / gdp_deflator(1990, 1975) / 1000, 1)) %>%  # (1990 $/ppl) to (thou 1975 $/ppl)
+      mutate(price.unit.conversion =
+               if_else(minicam.energy.input == socioeconomics.LABOR_AG_MARKET_NAME,
+                       round(1 / gdp_deflator(1990, 1975) / 1000, aglu.DIGITS_CALOUTPUT),
+                       1)) %>%  # (1990 $/ppl) to (thou 1975 $/ppl)
       add_title("labor and capital coefficients for forest technologies with MA tfp") %>%
       add_units("index") %>%
       add_comments("Compute bioenergy labor and capital coefficients") %>%

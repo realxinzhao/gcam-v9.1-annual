@@ -110,6 +110,7 @@ module_emissions_L251.en_ssp_nonco2 <- function(command, ...) {
                       tidyr::nesting(GCAM_region_ID, Non.CO2, supplysector, subsector, stub.technology, agg_sector),
                       fill = list(value = NA)) %>%
       mutate(year = as.integer(year)) %>%
+      filter(year <= max(emissions.SSP_FUTURE_YEARS)) %>%
       group_by(GCAM_region_ID, Non.CO2, supplysector, subsector, stub.technology, agg_sector) %>%
       mutate(value = approx_fun(year, value)) %>%
       # Now add regional information.
@@ -133,6 +134,7 @@ module_emissions_L251.en_ssp_nonco2 <- function(command, ...) {
                       fill = list(value = NA)) %>%
       #There are some sector country combinations especially for BCOC where we don't have data. Output these as 0 so as to avoid NA values in the xml.
       mutate(year = as.integer(year)) %>%
+      filter(year <= max(emissions.SSP_FUTURE_YEARS)) %>%
       group_by(GCAM_region_ID, Non.CO2, supplysector, subsector, stub.technology, agg_sector) %>%
       mutate(value = approx_fun(year, value)) %>%
       # Now add regional information.
@@ -153,6 +155,7 @@ module_emissions_L251.en_ssp_nonco2 <- function(command, ...) {
                       tidyr::nesting(GCAM_region_ID, Non.CO2, supplysector, subsector, stub.technology, agg_sector),
                       fill = list(value = NA)) %>%
       mutate(year = as.integer(year)) %>%
+      filter(year <= max(emissions.SSP_FUTURE_YEARS)) %>%
       group_by(GCAM_region_ID, Non.CO2, supplysector, subsector, stub.technology, agg_sector) %>%
       mutate(value = approx_fun(year, value)) %>%
       # Now add regional information.
