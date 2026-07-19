@@ -5,710 +5,6 @@
 # Column types: ccinc
 # ----------
 scenario,region,year,productivity,gcam.version
-CORE,Africa_Eastern,1975,0,gcam-v9.1
-CORE,Africa_Eastern,1990,0,gcam-v9.1
-CORE,Africa_Eastern,2005,0,gcam-v9.1
-CORE,Africa_Eastern,2010,0,gcam-v9.1
-CORE,Africa_Eastern,2015,0,gcam-v9.1
-CORE,Africa_Eastern,2021,0,gcam-v9.1
-CORE,Africa_Eastern,2025,0.984441,gcam-v9.1
-CORE,Africa_Eastern,2030,1.12078,gcam-v9.1
-CORE,Africa_Eastern,2035,1.25768,gcam-v9.1
-CORE,Africa_Eastern,2040,1.3798,gcam-v9.1
-CORE,Africa_Eastern,2045,1.48164,gcam-v9.1
-CORE,Africa_Eastern,2050,1.57547,gcam-v9.1
-CORE,Africa_Eastern,2055,1.66159,gcam-v9.1
-CORE,Africa_Eastern,2060,1.74558,gcam-v9.1
-CORE,Africa_Eastern,2065,1.83556,gcam-v9.1
-CORE,Africa_Eastern,2070,1.92654,gcam-v9.1
-CORE,Africa_Eastern,2075,2.0242,gcam-v9.1
-CORE,Africa_Eastern,2080,2.12739,gcam-v9.1
-CORE,Africa_Eastern,2085,2.23719,gcam-v9.1
-CORE,Africa_Eastern,2090,2.36143,gcam-v9.1
-CORE,Africa_Eastern,2095,2.49994,gcam-v9.1
-CORE,Africa_Eastern,2100,2.65252,gcam-v9.1
-CORE,Africa_Northern,1975,0,gcam-v9.1
-CORE,Africa_Northern,1990,0,gcam-v9.1
-CORE,Africa_Northern,2005,0,gcam-v9.1
-CORE,Africa_Northern,2010,0,gcam-v9.1
-CORE,Africa_Northern,2015,0,gcam-v9.1
-CORE,Africa_Northern,2021,0,gcam-v9.1
-CORE,Africa_Northern,2025,1.12058,gcam-v9.1
-CORE,Africa_Northern,2030,1.26685,gcam-v9.1
-CORE,Africa_Northern,2035,1.40504,gcam-v9.1
-CORE,Africa_Northern,2040,1.54608,gcam-v9.1
-CORE,Africa_Northern,2045,1.62989,gcam-v9.1
-CORE,Africa_Northern,2050,1.69902,gcam-v9.1
-CORE,Africa_Northern,2055,1.75826,gcam-v9.1
-CORE,Africa_Northern,2060,1.79173,gcam-v9.1
-CORE,Africa_Northern,2065,1.8153,gcam-v9.1
-CORE,Africa_Northern,2070,1.83482,gcam-v9.1
-CORE,Africa_Northern,2075,1.86794,gcam-v9.1
-CORE,Africa_Northern,2080,1.92195,gcam-v9.1
-CORE,Africa_Northern,2085,1.99222,gcam-v9.1
-CORE,Africa_Northern,2090,2.07059,gcam-v9.1
-CORE,Africa_Northern,2095,2.15423,gcam-v9.1
-CORE,Africa_Northern,2100,2.24161,gcam-v9.1
-CORE,Africa_Southern,1975,0,gcam-v9.1
-CORE,Africa_Southern,1990,0,gcam-v9.1
-CORE,Africa_Southern,2005,0,gcam-v9.1
-CORE,Africa_Southern,2010,0,gcam-v9.1
-CORE,Africa_Southern,2015,0,gcam-v9.1
-CORE,Africa_Southern,2021,0,gcam-v9.1
-CORE,Africa_Southern,2025,0.925132,gcam-v9.1
-CORE,Africa_Southern,2030,0.991699,gcam-v9.1
-CORE,Africa_Southern,2035,1.08144,gcam-v9.1
-CORE,Africa_Southern,2040,1.15958,gcam-v9.1
-CORE,Africa_Southern,2045,1.21452,gcam-v9.1
-CORE,Africa_Southern,2050,1.26832,gcam-v9.1
-CORE,Africa_Southern,2055,1.32607,gcam-v9.1
-CORE,Africa_Southern,2060,1.39385,gcam-v9.1
-CORE,Africa_Southern,2065,1.46717,gcam-v9.1
-CORE,Africa_Southern,2070,1.538,gcam-v9.1
-CORE,Africa_Southern,2075,1.61042,gcam-v9.1
-CORE,Africa_Southern,2080,1.68601,gcam-v9.1
-CORE,Africa_Southern,2085,1.76369,gcam-v9.1
-CORE,Africa_Southern,2090,1.84368,gcam-v9.1
-CORE,Africa_Southern,2095,1.92963,gcam-v9.1
-CORE,Africa_Southern,2100,2.02368,gcam-v9.1
-CORE,Africa_Western,1975,0,gcam-v9.1
-CORE,Africa_Western,1990,0,gcam-v9.1
-CORE,Africa_Western,2005,0,gcam-v9.1
-CORE,Africa_Western,2010,0,gcam-v9.1
-CORE,Africa_Western,2015,0,gcam-v9.1
-CORE,Africa_Western,2021,0,gcam-v9.1
-CORE,Africa_Western,2025,1.07154,gcam-v9.1
-CORE,Africa_Western,2030,1.16883,gcam-v9.1
-CORE,Africa_Western,2035,1.31744,gcam-v9.1
-CORE,Africa_Western,2040,1.44671,gcam-v9.1
-CORE,Africa_Western,2045,1.53612,gcam-v9.1
-CORE,Africa_Western,2050,1.60655,gcam-v9.1
-CORE,Africa_Western,2055,1.66333,gcam-v9.1
-CORE,Africa_Western,2060,1.7051,gcam-v9.1
-CORE,Africa_Western,2065,1.74322,gcam-v9.1
-CORE,Africa_Western,2070,1.77984,gcam-v9.1
-CORE,Africa_Western,2075,1.81927,gcam-v9.1
-CORE,Africa_Western,2080,1.86432,gcam-v9.1
-CORE,Africa_Western,2085,1.91681,gcam-v9.1
-CORE,Africa_Western,2090,1.97961,gcam-v9.1
-CORE,Africa_Western,2095,2.04908,gcam-v9.1
-CORE,Africa_Western,2100,2.12693,gcam-v9.1
-CORE,Argentina,1975,0,gcam-v9.1
-CORE,Argentina,1990,0,gcam-v9.1
-CORE,Argentina,2005,0,gcam-v9.1
-CORE,Argentina,2010,0,gcam-v9.1
-CORE,Argentina,2015,0,gcam-v9.1
-CORE,Argentina,2021,0,gcam-v9.1
-CORE,Argentina,2025,1.02682,gcam-v9.1
-CORE,Argentina,2030,1.08123,gcam-v9.1
-CORE,Argentina,2035,1.11668,gcam-v9.1
-CORE,Argentina,2040,1.17157,gcam-v9.1
-CORE,Argentina,2045,1.2459,gcam-v9.1
-CORE,Argentina,2050,1.33124,gcam-v9.1
-CORE,Argentina,2055,1.42975,gcam-v9.1
-CORE,Argentina,2060,1.53497,gcam-v9.1
-CORE,Argentina,2065,1.64524,gcam-v9.1
-CORE,Argentina,2070,1.75812,gcam-v9.1
-CORE,Argentina,2075,1.8754,gcam-v9.1
-CORE,Argentina,2080,2.00216,gcam-v9.1
-CORE,Argentina,2085,2.12953,gcam-v9.1
-CORE,Argentina,2090,2.24151,gcam-v9.1
-CORE,Argentina,2095,2.35446,gcam-v9.1
-CORE,Argentina,2100,2.47046,gcam-v9.1
-CORE,Australia_NZ,1975,0,gcam-v9.1
-CORE,Australia_NZ,1990,0,gcam-v9.1
-CORE,Australia_NZ,2005,0,gcam-v9.1
-CORE,Australia_NZ,2010,0,gcam-v9.1
-CORE,Australia_NZ,2015,0,gcam-v9.1
-CORE,Australia_NZ,2021,0,gcam-v9.1
-CORE,Australia_NZ,2025,1.01057,gcam-v9.1
-CORE,Australia_NZ,2030,1.0712,gcam-v9.1
-CORE,Australia_NZ,2035,1.1316,gcam-v9.1
-CORE,Australia_NZ,2040,1.19955,gcam-v9.1
-CORE,Australia_NZ,2045,1.26369,gcam-v9.1
-CORE,Australia_NZ,2050,1.3326,gcam-v9.1
-CORE,Australia_NZ,2055,1.4027,gcam-v9.1
-CORE,Australia_NZ,2060,1.47729,gcam-v9.1
-CORE,Australia_NZ,2065,1.54681,gcam-v9.1
-CORE,Australia_NZ,2070,1.60514,gcam-v9.1
-CORE,Australia_NZ,2075,1.66766,gcam-v9.1
-CORE,Australia_NZ,2080,1.73512,gcam-v9.1
-CORE,Australia_NZ,2085,1.79938,gcam-v9.1
-CORE,Australia_NZ,2090,1.85538,gcam-v9.1
-CORE,Australia_NZ,2095,1.91163,gcam-v9.1
-CORE,Australia_NZ,2100,1.96711,gcam-v9.1
-CORE,Brazil,1975,0,gcam-v9.1
-CORE,Brazil,1990,0,gcam-v9.1
-CORE,Brazil,2005,0,gcam-v9.1
-CORE,Brazil,2010,0,gcam-v9.1
-CORE,Brazil,2015,0,gcam-v9.1
-CORE,Brazil,2021,0,gcam-v9.1
-CORE,Brazil,2025,1.01561,gcam-v9.1
-CORE,Brazil,2030,1.05577,gcam-v9.1
-CORE,Brazil,2035,1.17434,gcam-v9.1
-CORE,Brazil,2040,1.34057,gcam-v9.1
-CORE,Brazil,2045,1.52129,gcam-v9.1
-CORE,Brazil,2050,1.70368,gcam-v9.1
-CORE,Brazil,2055,1.87679,gcam-v9.1
-CORE,Brazil,2060,2.03936,gcam-v9.1
-CORE,Brazil,2065,2.20976,gcam-v9.1
-CORE,Brazil,2070,2.37122,gcam-v9.1
-CORE,Brazil,2075,2.52669,gcam-v9.1
-CORE,Brazil,2080,2.6797,gcam-v9.1
-CORE,Brazil,2085,2.83674,gcam-v9.1
-CORE,Brazil,2090,2.98252,gcam-v9.1
-CORE,Brazil,2095,3.13401,gcam-v9.1
-CORE,Brazil,2100,3.29198,gcam-v9.1
-CORE,Canada,1975,0,gcam-v9.1
-CORE,Canada,1990,0,gcam-v9.1
-CORE,Canada,2005,0,gcam-v9.1
-CORE,Canada,2010,0,gcam-v9.1
-CORE,Canada,2015,0,gcam-v9.1
-CORE,Canada,2021,0,gcam-v9.1
-CORE,Canada,2025,1.00475,gcam-v9.1
-CORE,Canada,2030,1.08596,gcam-v9.1
-CORE,Canada,2035,1.17179,gcam-v9.1
-CORE,Canada,2040,1.2674,gcam-v9.1
-CORE,Canada,2045,1.36737,gcam-v9.1
-CORE,Canada,2050,1.46981,gcam-v9.1
-CORE,Canada,2055,1.56503,gcam-v9.1
-CORE,Canada,2060,1.66245,gcam-v9.1
-CORE,Canada,2065,1.75628,gcam-v9.1
-CORE,Canada,2070,1.83455,gcam-v9.1
-CORE,Canada,2075,1.9171,gcam-v9.1
-CORE,Canada,2080,2.00892,gcam-v9.1
-CORE,Canada,2085,2.09248,gcam-v9.1
-CORE,Canada,2090,2.15866,gcam-v9.1
-CORE,Canada,2095,2.22755,gcam-v9.1
-CORE,Canada,2100,2.29869,gcam-v9.1
-CORE,Central America and Caribbean,1975,0,gcam-v9.1
-CORE,Central America and Caribbean,1990,0,gcam-v9.1
-CORE,Central America and Caribbean,2005,0,gcam-v9.1
-CORE,Central America and Caribbean,2010,0,gcam-v9.1
-CORE,Central America and Caribbean,2015,0,gcam-v9.1
-CORE,Central America and Caribbean,2021,0,gcam-v9.1
-CORE,Central America and Caribbean,2025,1.06678,gcam-v9.1
-CORE,Central America and Caribbean,2030,1.15069,gcam-v9.1
-CORE,Central America and Caribbean,2035,1.24907,gcam-v9.1
-CORE,Central America and Caribbean,2040,1.3511,gcam-v9.1
-CORE,Central America and Caribbean,2045,1.44727,gcam-v9.1
-CORE,Central America and Caribbean,2050,1.54185,gcam-v9.1
-CORE,Central America and Caribbean,2055,1.63892,gcam-v9.1
-CORE,Central America and Caribbean,2060,1.73539,gcam-v9.1
-CORE,Central America and Caribbean,2065,1.83406,gcam-v9.1
-CORE,Central America and Caribbean,2070,1.93147,gcam-v9.1
-CORE,Central America and Caribbean,2075,2.02773,gcam-v9.1
-CORE,Central America and Caribbean,2080,2.12614,gcam-v9.1
-CORE,Central America and Caribbean,2085,2.22538,gcam-v9.1
-CORE,Central America and Caribbean,2090,2.3255,gcam-v9.1
-CORE,Central America and Caribbean,2095,2.42956,gcam-v9.1
-CORE,Central America and Caribbean,2100,2.53831,gcam-v9.1
-CORE,Central Asia,1975,0,gcam-v9.1
-CORE,Central Asia,1990,0,gcam-v9.1
-CORE,Central Asia,2005,0,gcam-v9.1
-CORE,Central Asia,2010,0,gcam-v9.1
-CORE,Central Asia,2015,0,gcam-v9.1
-CORE,Central Asia,2021,0,gcam-v9.1
-CORE,Central Asia,2025,1.18431,gcam-v9.1
-CORE,Central Asia,2030,1.30705,gcam-v9.1
-CORE,Central Asia,2035,1.42902,gcam-v9.1
-CORE,Central Asia,2040,1.51402,gcam-v9.1
-CORE,Central Asia,2045,1.53795,gcam-v9.1
-CORE,Central Asia,2050,1.55952,gcam-v9.1
-CORE,Central Asia,2055,1.60435,gcam-v9.1
-CORE,Central Asia,2060,1.65967,gcam-v9.1
-CORE,Central Asia,2065,1.72123,gcam-v9.1
-CORE,Central Asia,2070,1.78219,gcam-v9.1
-CORE,Central Asia,2075,1.84159,gcam-v9.1
-CORE,Central Asia,2080,1.91614,gcam-v9.1
-CORE,Central Asia,2085,2.00362,gcam-v9.1
-CORE,Central Asia,2090,2.09977,gcam-v9.1
-CORE,Central Asia,2095,2.19765,gcam-v9.1
-CORE,Central Asia,2100,2.29668,gcam-v9.1
-CORE,China,1975,0,gcam-v9.1
-CORE,China,1990,0,gcam-v9.1
-CORE,China,2005,0,gcam-v9.1
-CORE,China,2010,0,gcam-v9.1
-CORE,China,2015,0,gcam-v9.1
-CORE,China,2021,0,gcam-v9.1
-CORE,China,2025,1.10205,gcam-v9.1
-CORE,China,2030,1.22424,gcam-v9.1
-CORE,China,2035,1.33664,gcam-v9.1
-CORE,China,2040,1.42703,gcam-v9.1
-CORE,China,2045,1.50358,gcam-v9.1
-CORE,China,2050,1.61718,gcam-v9.1
-CORE,China,2055,1.76414,gcam-v9.1
-CORE,China,2060,1.90717,gcam-v9.1
-CORE,China,2065,2.028,gcam-v9.1
-CORE,China,2070,2.13884,gcam-v9.1
-CORE,China,2075,2.26452,gcam-v9.1
-CORE,China,2080,2.42546,gcam-v9.1
-CORE,China,2085,2.5978,gcam-v9.1
-CORE,China,2090,2.70928,gcam-v9.1
-CORE,China,2095,2.80587,gcam-v9.1
-CORE,China,2100,2.90279,gcam-v9.1
-CORE,Colombia,1975,0,gcam-v9.1
-CORE,Colombia,1990,0,gcam-v9.1
-CORE,Colombia,2005,0,gcam-v9.1
-CORE,Colombia,2010,0,gcam-v9.1
-CORE,Colombia,2015,0,gcam-v9.1
-CORE,Colombia,2021,0,gcam-v9.1
-CORE,Colombia,2025,1.05264,gcam-v9.1
-CORE,Colombia,2030,1.12783,gcam-v9.1
-CORE,Colombia,2035,1.26797,gcam-v9.1
-CORE,Colombia,2040,1.44326,gcam-v9.1
-CORE,Colombia,2045,1.59403,gcam-v9.1
-CORE,Colombia,2050,1.72655,gcam-v9.1
-CORE,Colombia,2055,1.85481,gcam-v9.1
-CORE,Colombia,2060,1.98348,gcam-v9.1
-CORE,Colombia,2065,2.11142,gcam-v9.1
-CORE,Colombia,2070,2.22932,gcam-v9.1
-CORE,Colombia,2075,2.3306,gcam-v9.1
-CORE,Colombia,2080,2.42332,gcam-v9.1
-CORE,Colombia,2085,2.51625,gcam-v9.1
-CORE,Colombia,2090,2.60757,gcam-v9.1
-CORE,Colombia,2095,2.69906,gcam-v9.1
-CORE,Colombia,2100,2.79047,gcam-v9.1
-CORE,EU-12,1975,0,gcam-v9.1
-CORE,EU-12,1990,0,gcam-v9.1
-CORE,EU-12,2005,0,gcam-v9.1
-CORE,EU-12,2010,0,gcam-v9.1
-CORE,EU-12,2015,0,gcam-v9.1
-CORE,EU-12,2021,0,gcam-v9.1
-CORE,EU-12,2025,1.05334,gcam-v9.1
-CORE,EU-12,2030,1.146,gcam-v9.1
-CORE,EU-12,2035,1.20752,gcam-v9.1
-CORE,EU-12,2040,1.26357,gcam-v9.1
-CORE,EU-12,2045,1.31479,gcam-v9.1
-CORE,EU-12,2050,1.36353,gcam-v9.1
-CORE,EU-12,2055,1.41946,gcam-v9.1
-CORE,EU-12,2060,1.4681,gcam-v9.1
-CORE,EU-12,2065,1.50334,gcam-v9.1
-CORE,EU-12,2070,1.53371,gcam-v9.1
-CORE,EU-12,2075,1.57227,gcam-v9.1
-CORE,EU-12,2080,1.61523,gcam-v9.1
-CORE,EU-12,2085,1.66638,gcam-v9.1
-CORE,EU-12,2090,1.71646,gcam-v9.1
-CORE,EU-12,2095,1.76417,gcam-v9.1
-CORE,EU-12,2100,1.81051,gcam-v9.1
-CORE,EU-15,1975,0,gcam-v9.1
-CORE,EU-15,1990,0,gcam-v9.1
-CORE,EU-15,2005,0,gcam-v9.1
-CORE,EU-15,2010,0,gcam-v9.1
-CORE,EU-15,2015,0,gcam-v9.1
-CORE,EU-15,2021,0,gcam-v9.1
-CORE,EU-15,2025,1.04179,gcam-v9.1
-CORE,EU-15,2030,1.09277,gcam-v9.1
-CORE,EU-15,2035,1.15084,gcam-v9.1
-CORE,EU-15,2040,1.21621,gcam-v9.1
-CORE,EU-15,2045,1.28327,gcam-v9.1
-CORE,EU-15,2050,1.35007,gcam-v9.1
-CORE,EU-15,2055,1.41765,gcam-v9.1
-CORE,EU-15,2060,1.48229,gcam-v9.1
-CORE,EU-15,2065,1.54311,gcam-v9.1
-CORE,EU-15,2070,1.59932,gcam-v9.1
-CORE,EU-15,2075,1.65889,gcam-v9.1
-CORE,EU-15,2080,1.72216,gcam-v9.1
-CORE,EU-15,2085,1.78209,gcam-v9.1
-CORE,EU-15,2090,1.8341,gcam-v9.1
-CORE,EU-15,2095,1.88508,gcam-v9.1
-CORE,EU-15,2100,1.93501,gcam-v9.1
-CORE,Europe_Non_EU,1975,0,gcam-v9.1
-CORE,Europe_Non_EU,1990,0,gcam-v9.1
-CORE,Europe_Non_EU,2005,0,gcam-v9.1
-CORE,Europe_Non_EU,2010,0,gcam-v9.1
-CORE,Europe_Non_EU,2015,0,gcam-v9.1
-CORE,Europe_Non_EU,2021,0,gcam-v9.1
-CORE,Europe_Non_EU,2025,1.01402,gcam-v9.1
-CORE,Europe_Non_EU,2030,1.07453,gcam-v9.1
-CORE,Europe_Non_EU,2035,1.11922,gcam-v9.1
-CORE,Europe_Non_EU,2040,1.14937,gcam-v9.1
-CORE,Europe_Non_EU,2045,1.17953,gcam-v9.1
-CORE,Europe_Non_EU,2050,1.20626,gcam-v9.1
-CORE,Europe_Non_EU,2055,1.2406,gcam-v9.1
-CORE,Europe_Non_EU,2060,1.27396,gcam-v9.1
-CORE,Europe_Non_EU,2065,1.30461,gcam-v9.1
-CORE,Europe_Non_EU,2070,1.32999,gcam-v9.1
-CORE,Europe_Non_EU,2075,1.35491,gcam-v9.1
-CORE,Europe_Non_EU,2080,1.38638,gcam-v9.1
-CORE,Europe_Non_EU,2085,1.42391,gcam-v9.1
-CORE,Europe_Non_EU,2090,1.45691,gcam-v9.1
-CORE,Europe_Non_EU,2095,1.49231,gcam-v9.1
-CORE,Europe_Non_EU,2100,1.52953,gcam-v9.1
-CORE,European Free Trade Association,1975,0,gcam-v9.1
-CORE,European Free Trade Association,1990,0,gcam-v9.1
-CORE,European Free Trade Association,2005,0,gcam-v9.1
-CORE,European Free Trade Association,2010,0,gcam-v9.1
-CORE,European Free Trade Association,2015,0,gcam-v9.1
-CORE,European Free Trade Association,2021,0,gcam-v9.1
-CORE,European Free Trade Association,2025,1.00818,gcam-v9.1
-CORE,European Free Trade Association,2030,1.02033,gcam-v9.1
-CORE,European Free Trade Association,2035,1.04776,gcam-v9.1
-CORE,European Free Trade Association,2040,1.07711,gcam-v9.1
-CORE,European Free Trade Association,2045,1.10583,gcam-v9.1
-CORE,European Free Trade Association,2050,1.14092,gcam-v9.1
-CORE,European Free Trade Association,2055,1.1849,gcam-v9.1
-CORE,European Free Trade Association,2060,1.23551,gcam-v9.1
-CORE,European Free Trade Association,2065,1.28391,gcam-v9.1
-CORE,European Free Trade Association,2070,1.32677,gcam-v9.1
-CORE,European Free Trade Association,2075,1.37526,gcam-v9.1
-CORE,European Free Trade Association,2080,1.43051,gcam-v9.1
-CORE,European Free Trade Association,2085,1.48385,gcam-v9.1
-CORE,European Free Trade Association,2090,1.52863,gcam-v9.1
-CORE,European Free Trade Association,2095,1.57393,gcam-v9.1
-CORE,European Free Trade Association,2100,1.6184,gcam-v9.1
-CORE,India,1975,0,gcam-v9.1
-CORE,India,1990,0,gcam-v9.1
-CORE,India,2005,0,gcam-v9.1
-CORE,India,2010,0,gcam-v9.1
-CORE,India,2015,0,gcam-v9.1
-CORE,India,2021,0,gcam-v9.1
-CORE,India,2025,1.05816,gcam-v9.1
-CORE,India,2030,1.20605,gcam-v9.1
-CORE,India,2035,1.31539,gcam-v9.1
-CORE,India,2040,1.41873,gcam-v9.1
-CORE,India,2045,1.51973,gcam-v9.1
-CORE,India,2050,1.63124,gcam-v9.1
-CORE,India,2055,1.75668,gcam-v9.1
-CORE,India,2060,1.89476,gcam-v9.1
-CORE,India,2065,2.04739,gcam-v9.1
-CORE,India,2070,2.20916,gcam-v9.1
-CORE,India,2075,2.37349,gcam-v9.1
-CORE,India,2080,2.53521,gcam-v9.1
-CORE,India,2085,2.69296,gcam-v9.1
-CORE,India,2090,2.84495,gcam-v9.1
-CORE,India,2095,3.00114,gcam-v9.1
-CORE,India,2100,3.1636,gcam-v9.1
-CORE,Indonesia,1975,0,gcam-v9.1
-CORE,Indonesia,1990,0,gcam-v9.1
-CORE,Indonesia,2005,0,gcam-v9.1
-CORE,Indonesia,2010,0,gcam-v9.1
-CORE,Indonesia,2015,0,gcam-v9.1
-CORE,Indonesia,2021,0,gcam-v9.1
-CORE,Indonesia,2025,1.11401,gcam-v9.1
-CORE,Indonesia,2030,1.27229,gcam-v9.1
-CORE,Indonesia,2035,1.38566,gcam-v9.1
-CORE,Indonesia,2040,1.49625,gcam-v9.1
-CORE,Indonesia,2045,1.59628,gcam-v9.1
-CORE,Indonesia,2050,1.68662,gcam-v9.1
-CORE,Indonesia,2055,1.77944,gcam-v9.1
-CORE,Indonesia,2060,1.87509,gcam-v9.1
-CORE,Indonesia,2065,1.97793,gcam-v9.1
-CORE,Indonesia,2070,2.08563,gcam-v9.1
-CORE,Indonesia,2075,2.20444,gcam-v9.1
-CORE,Indonesia,2080,2.33213,gcam-v9.1
-CORE,Indonesia,2085,2.45705,gcam-v9.1
-CORE,Indonesia,2090,2.57787,gcam-v9.1
-CORE,Indonesia,2095,2.69715,gcam-v9.1
-CORE,Indonesia,2100,2.81376,gcam-v9.1
-CORE,Japan,1975,0,gcam-v9.1
-CORE,Japan,1990,0,gcam-v9.1
-CORE,Japan,2005,0,gcam-v9.1
-CORE,Japan,2010,0,gcam-v9.1
-CORE,Japan,2015,0,gcam-v9.1
-CORE,Japan,2021,0,gcam-v9.1
-CORE,Japan,2025,1.0245,gcam-v9.1
-CORE,Japan,2030,1.05005,gcam-v9.1
-CORE,Japan,2035,1.09828,gcam-v9.1
-CORE,Japan,2040,1.17161,gcam-v9.1
-CORE,Japan,2045,1.24248,gcam-v9.1
-CORE,Japan,2050,1.31093,gcam-v9.1
-CORE,Japan,2055,1.37696,gcam-v9.1
-CORE,Japan,2060,1.43718,gcam-v9.1
-CORE,Japan,2065,1.50068,gcam-v9.1
-CORE,Japan,2070,1.56407,gcam-v9.1
-CORE,Japan,2075,1.62782,gcam-v9.1
-CORE,Japan,2080,1.69663,gcam-v9.1
-CORE,Japan,2085,1.75953,gcam-v9.1
-CORE,Japan,2090,1.82139,gcam-v9.1
-CORE,Japan,2095,1.88522,gcam-v9.1
-CORE,Japan,2100,1.94873,gcam-v9.1
-CORE,Mexico,1975,0,gcam-v9.1
-CORE,Mexico,1990,0,gcam-v9.1
-CORE,Mexico,2005,0,gcam-v9.1
-CORE,Mexico,2010,0,gcam-v9.1
-CORE,Mexico,2015,0,gcam-v9.1
-CORE,Mexico,2021,0,gcam-v9.1
-CORE,Mexico,2025,1.02139,gcam-v9.1
-CORE,Mexico,2030,1.05844,gcam-v9.1
-CORE,Mexico,2035,1.11274,gcam-v9.1
-CORE,Mexico,2040,1.1823,gcam-v9.1
-CORE,Mexico,2045,1.24484,gcam-v9.1
-CORE,Mexico,2050,1.29571,gcam-v9.1
-CORE,Mexico,2055,1.34324,gcam-v9.1
-CORE,Mexico,2060,1.38374,gcam-v9.1
-CORE,Mexico,2065,1.42474,gcam-v9.1
-CORE,Mexico,2070,1.47062,gcam-v9.1
-CORE,Mexico,2075,1.5099,gcam-v9.1
-CORE,Mexico,2080,1.54684,gcam-v9.1
-CORE,Mexico,2085,1.57883,gcam-v9.1
-CORE,Mexico,2090,1.60887,gcam-v9.1
-CORE,Mexico,2095,1.63762,gcam-v9.1
-CORE,Mexico,2100,1.66529,gcam-v9.1
-CORE,Middle East,1975,0,gcam-v9.1
-CORE,Middle East,1990,0,gcam-v9.1
-CORE,Middle East,2005,0,gcam-v9.1
-CORE,Middle East,2010,0,gcam-v9.1
-CORE,Middle East,2015,0,gcam-v9.1
-CORE,Middle East,2021,0,gcam-v9.1
-CORE,Middle East,2025,1.11167,gcam-v9.1
-CORE,Middle East,2030,1.1266,gcam-v9.1
-CORE,Middle East,2035,1.15575,gcam-v9.1
-CORE,Middle East,2040,1.19973,gcam-v9.1
-CORE,Middle East,2045,1.25382,gcam-v9.1
-CORE,Middle East,2050,1.30987,gcam-v9.1
-CORE,Middle East,2055,1.38308,gcam-v9.1
-CORE,Middle East,2060,1.4436,gcam-v9.1
-CORE,Middle East,2065,1.49584,gcam-v9.1
-CORE,Middle East,2070,1.5497,gcam-v9.1
-CORE,Middle East,2075,1.60966,gcam-v9.1
-CORE,Middle East,2080,1.67535,gcam-v9.1
-CORE,Middle East,2085,1.74273,gcam-v9.1
-CORE,Middle East,2090,1.81433,gcam-v9.1
-CORE,Middle East,2095,1.89122,gcam-v9.1
-CORE,Middle East,2100,1.9759,gcam-v9.1
-CORE,Pakistan,1975,0,gcam-v9.1
-CORE,Pakistan,1990,0,gcam-v9.1
-CORE,Pakistan,2005,0,gcam-v9.1
-CORE,Pakistan,2010,0,gcam-v9.1
-CORE,Pakistan,2015,0,gcam-v9.1
-CORE,Pakistan,2021,0,gcam-v9.1
-CORE,Pakistan,2025,1.04045,gcam-v9.1
-CORE,Pakistan,2030,1.22385,gcam-v9.1
-CORE,Pakistan,2035,1.38388,gcam-v9.1
-CORE,Pakistan,2040,1.55813,gcam-v9.1
-CORE,Pakistan,2045,1.69335,gcam-v9.1
-CORE,Pakistan,2050,1.77359,gcam-v9.1
-CORE,Pakistan,2055,1.8162,gcam-v9.1
-CORE,Pakistan,2060,1.84511,gcam-v9.1
-CORE,Pakistan,2065,1.87945,gcam-v9.1
-CORE,Pakistan,2070,1.91934,gcam-v9.1
-CORE,Pakistan,2075,1.97913,gcam-v9.1
-CORE,Pakistan,2080,2.05647,gcam-v9.1
-CORE,Pakistan,2085,2.14775,gcam-v9.1
-CORE,Pakistan,2090,2.2589,gcam-v9.1
-CORE,Pakistan,2095,2.38771,gcam-v9.1
-CORE,Pakistan,2100,2.53463,gcam-v9.1
-CORE,Russia,1975,0,gcam-v9.1
-CORE,Russia,1990,0,gcam-v9.1
-CORE,Russia,2005,0,gcam-v9.1
-CORE,Russia,2010,0,gcam-v9.1
-CORE,Russia,2015,0,gcam-v9.1
-CORE,Russia,2021,0,gcam-v9.1
-CORE,Russia,2025,0.940491,gcam-v9.1
-CORE,Russia,2030,1.02071,gcam-v9.1
-CORE,Russia,2035,1.13458,gcam-v9.1
-CORE,Russia,2040,1.25663,gcam-v9.1
-CORE,Russia,2045,1.35882,gcam-v9.1
-CORE,Russia,2050,1.47289,gcam-v9.1
-CORE,Russia,2055,1.60675,gcam-v9.1
-CORE,Russia,2060,1.72514,gcam-v9.1
-CORE,Russia,2065,1.8288,gcam-v9.1
-CORE,Russia,2070,1.94246,gcam-v9.1
-CORE,Russia,2075,2.05742,gcam-v9.1
-CORE,Russia,2080,2.20562,gcam-v9.1
-CORE,Russia,2085,2.36503,gcam-v9.1
-CORE,Russia,2090,2.5079,gcam-v9.1
-CORE,Russia,2095,2.64703,gcam-v9.1
-CORE,Russia,2100,2.78693,gcam-v9.1
-CORE,South Africa,1975,0,gcam-v9.1
-CORE,South Africa,1990,0,gcam-v9.1
-CORE,South Africa,2005,0,gcam-v9.1
-CORE,South Africa,2010,0,gcam-v9.1
-CORE,South Africa,2015,0,gcam-v9.1
-CORE,South Africa,2021,0,gcam-v9.1
-CORE,South Africa,2025,0.997742,gcam-v9.1
-CORE,South Africa,2030,1.05729,gcam-v9.1
-CORE,South Africa,2035,1.18036,gcam-v9.1
-CORE,South Africa,2040,1.33165,gcam-v9.1
-CORE,South Africa,2045,1.45498,gcam-v9.1
-CORE,South Africa,2050,1.57106,gcam-v9.1
-CORE,South Africa,2055,1.6935,gcam-v9.1
-CORE,South Africa,2060,1.80646,gcam-v9.1
-CORE,South Africa,2065,1.91039,gcam-v9.1
-CORE,South Africa,2070,2.01118,gcam-v9.1
-CORE,South Africa,2075,2.12994,gcam-v9.1
-CORE,South Africa,2080,2.26428,gcam-v9.1
-CORE,South Africa,2085,2.41036,gcam-v9.1
-CORE,South Africa,2090,2.56105,gcam-v9.1
-CORE,South Africa,2095,2.71491,gcam-v9.1
-CORE,South Africa,2100,2.87352,gcam-v9.1
-CORE,South America_Northern,1975,0,gcam-v9.1
-CORE,South America_Northern,1990,0,gcam-v9.1
-CORE,South America_Northern,2005,0,gcam-v9.1
-CORE,South America_Northern,2010,0,gcam-v9.1
-CORE,South America_Northern,2015,0,gcam-v9.1
-CORE,South America_Northern,2021,0,gcam-v9.1
-CORE,South America_Northern,2025,1.78241,gcam-v9.1
-CORE,South America_Northern,2030,2.59269,gcam-v9.1
-CORE,South America_Northern,2035,3.20512,gcam-v9.1
-CORE,South America_Northern,2040,3.48518,gcam-v9.1
-CORE,South America_Northern,2045,3.51077,gcam-v9.1
-CORE,South America_Northern,2050,3.3902,gcam-v9.1
-CORE,South America_Northern,2055,3.26412,gcam-v9.1
-CORE,South America_Northern,2060,3.20886,gcam-v9.1
-CORE,South America_Northern,2065,3.24744,gcam-v9.1
-CORE,South America_Northern,2070,3.36631,gcam-v9.1
-CORE,South America_Northern,2075,3.54511,gcam-v9.1
-CORE,South America_Northern,2080,3.74881,gcam-v9.1
-CORE,South America_Northern,2085,3.95777,gcam-v9.1
-CORE,South America_Northern,2090,4.15968,gcam-v9.1
-CORE,South America_Northern,2095,4.36593,gcam-v9.1
-CORE,South America_Northern,2100,4.56623,gcam-v9.1
-CORE,South America_Southern,1975,0,gcam-v9.1
-CORE,South America_Southern,1990,0,gcam-v9.1
-CORE,South America_Southern,2005,0,gcam-v9.1
-CORE,South America_Southern,2010,0,gcam-v9.1
-CORE,South America_Southern,2015,0,gcam-v9.1
-CORE,South America_Southern,2021,0,gcam-v9.1
-CORE,South America_Southern,2025,1.01591,gcam-v9.1
-CORE,South America_Southern,2030,1.03939,gcam-v9.1
-CORE,South America_Southern,2035,1.09023,gcam-v9.1
-CORE,South America_Southern,2040,1.15631,gcam-v9.1
-CORE,South America_Southern,2045,1.22286,gcam-v9.1
-CORE,South America_Southern,2050,1.29151,gcam-v9.1
-CORE,South America_Southern,2055,1.36883,gcam-v9.1
-CORE,South America_Southern,2060,1.44812,gcam-v9.1
-CORE,South America_Southern,2065,1.53069,gcam-v9.1
-CORE,South America_Southern,2070,1.61142,gcam-v9.1
-CORE,South America_Southern,2075,1.69246,gcam-v9.1
-CORE,South America_Southern,2080,1.77399,gcam-v9.1
-CORE,South America_Southern,2085,1.85413,gcam-v9.1
-CORE,South America_Southern,2090,1.93392,gcam-v9.1
-CORE,South America_Southern,2095,2.01457,gcam-v9.1
-CORE,South America_Southern,2100,2.09615,gcam-v9.1
-CORE,South Asia,1975,0,gcam-v9.1
-CORE,South Asia,1990,0,gcam-v9.1
-CORE,South Asia,2005,0,gcam-v9.1
-CORE,South Asia,2010,0,gcam-v9.1
-CORE,South Asia,2015,0,gcam-v9.1
-CORE,South Asia,2021,0,gcam-v9.1
-CORE,South Asia,2025,0.979583,gcam-v9.1
-CORE,South Asia,2030,1.1509,gcam-v9.1
-CORE,South Asia,2035,1.2798,gcam-v9.1
-CORE,South Asia,2040,1.3706,gcam-v9.1
-CORE,South Asia,2045,1.44346,gcam-v9.1
-CORE,South Asia,2050,1.51582,gcam-v9.1
-CORE,South Asia,2055,1.59268,gcam-v9.1
-CORE,South Asia,2060,1.67915,gcam-v9.1
-CORE,South Asia,2065,1.77943,gcam-v9.1
-CORE,South Asia,2070,1.88481,gcam-v9.1
-CORE,South Asia,2075,1.98858,gcam-v9.1
-CORE,South Asia,2080,2.0851,gcam-v9.1
-CORE,South Asia,2085,2.18239,gcam-v9.1
-CORE,South Asia,2090,2.28469,gcam-v9.1
-CORE,South Asia,2095,2.39181,gcam-v9.1
-CORE,South Asia,2100,2.50338,gcam-v9.1
-CORE,South Korea,1975,0,gcam-v9.1
-CORE,South Korea,1990,0,gcam-v9.1
-CORE,South Korea,2005,0,gcam-v9.1
-CORE,South Korea,2010,0,gcam-v9.1
-CORE,South Korea,2015,0,gcam-v9.1
-CORE,South Korea,2021,0,gcam-v9.1
-CORE,South Korea,2025,1.04013,gcam-v9.1
-CORE,South Korea,2030,1.13347,gcam-v9.1
-CORE,South Korea,2035,1.2087,gcam-v9.1
-CORE,South Korea,2040,1.31382,gcam-v9.1
-CORE,South Korea,2045,1.38418,gcam-v9.1
-CORE,South Korea,2050,1.47282,gcam-v9.1
-CORE,South Korea,2055,1.54978,gcam-v9.1
-CORE,South Korea,2060,1.63354,gcam-v9.1
-CORE,South Korea,2065,1.72902,gcam-v9.1
-CORE,South Korea,2070,1.7934,gcam-v9.1
-CORE,South Korea,2075,1.84265,gcam-v9.1
-CORE,South Korea,2080,1.91187,gcam-v9.1
-CORE,South Korea,2085,1.96469,gcam-v9.1
-CORE,South Korea,2090,1.98795,gcam-v9.1
-CORE,South Korea,2095,2.01961,gcam-v9.1
-CORE,South Korea,2100,2.05737,gcam-v9.1
-CORE,Southeast Asia,1975,0,gcam-v9.1
-CORE,Southeast Asia,1990,0,gcam-v9.1
-CORE,Southeast Asia,2005,0,gcam-v9.1
-CORE,Southeast Asia,2010,0,gcam-v9.1
-CORE,Southeast Asia,2015,0,gcam-v9.1
-CORE,Southeast Asia,2021,0,gcam-v9.1
-CORE,Southeast Asia,2025,1.07851,gcam-v9.1
-CORE,Southeast Asia,2030,1.21079,gcam-v9.1
-CORE,Southeast Asia,2035,1.30183,gcam-v9.1
-CORE,Southeast Asia,2040,1.35189,gcam-v9.1
-CORE,Southeast Asia,2045,1.38185,gcam-v9.1
-CORE,Southeast Asia,2050,1.41712,gcam-v9.1
-CORE,Southeast Asia,2055,1.46426,gcam-v9.1
-CORE,Southeast Asia,2060,1.521,gcam-v9.1
-CORE,Southeast Asia,2065,1.58297,gcam-v9.1
-CORE,Southeast Asia,2070,1.64829,gcam-v9.1
-CORE,Southeast Asia,2075,1.71636,gcam-v9.1
-CORE,Southeast Asia,2080,1.79037,gcam-v9.1
-CORE,Southeast Asia,2085,1.8715,gcam-v9.1
-CORE,Southeast Asia,2090,1.95677,gcam-v9.1
-CORE,Southeast Asia,2095,2.0468,gcam-v9.1
-CORE,Southeast Asia,2100,2.1406,gcam-v9.1
-CORE,Taiwan,1975,0,gcam-v9.1
-CORE,Taiwan,1990,0,gcam-v9.1
-CORE,Taiwan,2005,0,gcam-v9.1
-CORE,Taiwan,2010,0,gcam-v9.1
-CORE,Taiwan,2015,0,gcam-v9.1
-CORE,Taiwan,2021,0,gcam-v9.1
-CORE,Taiwan,2025,1.10127,gcam-v9.1
-CORE,Taiwan,2030,1.20632,gcam-v9.1
-CORE,Taiwan,2035,1.26762,gcam-v9.1
-CORE,Taiwan,2040,1.28105,gcam-v9.1
-CORE,Taiwan,2045,1.33298,gcam-v9.1
-CORE,Taiwan,2050,1.4119,gcam-v9.1
-CORE,Taiwan,2055,1.48949,gcam-v9.1
-CORE,Taiwan,2060,1.58012,gcam-v9.1
-CORE,Taiwan,2065,1.67664,gcam-v9.1
-CORE,Taiwan,2070,1.74664,gcam-v9.1
-CORE,Taiwan,2075,1.80182,gcam-v9.1
-CORE,Taiwan,2080,1.87818,gcam-v9.1
-CORE,Taiwan,2085,1.96404,gcam-v9.1
-CORE,Taiwan,2090,2.03451,gcam-v9.1
-CORE,Taiwan,2095,2.12007,gcam-v9.1
-CORE,Taiwan,2100,2.20929,gcam-v9.1
-CORE,Ukraine,1975,0,gcam-v9.1
-CORE,Ukraine,1990,0,gcam-v9.1
-CORE,Ukraine,2005,0,gcam-v9.1
-CORE,Ukraine,2010,0,gcam-v9.1
-CORE,Ukraine,2015,0,gcam-v9.1
-CORE,Ukraine,2021,0,gcam-v9.1
-CORE,Ukraine,2025,0.46909,gcam-v9.1
-CORE,Ukraine,2030,0.680772,gcam-v9.1
-CORE,Ukraine,2035,0.914529,gcam-v9.1
-CORE,Ukraine,2040,1.16123,gcam-v9.1
-CORE,Ukraine,2045,1.39887,gcam-v9.1
-CORE,Ukraine,2050,1.65117,gcam-v9.1
-CORE,Ukraine,2055,1.91596,gcam-v9.1
-CORE,Ukraine,2060,2.14117,gcam-v9.1
-CORE,Ukraine,2065,2.31369,gcam-v9.1
-CORE,Ukraine,2070,2.45429,gcam-v9.1
-CORE,Ukraine,2075,2.62161,gcam-v9.1
-CORE,Ukraine,2080,2.81412,gcam-v9.1
-CORE,Ukraine,2085,2.9873,gcam-v9.1
-CORE,Ukraine,2090,3.16229,gcam-v9.1
-CORE,Ukraine,2095,3.31825,gcam-v9.1
-CORE,Ukraine,2100,3.48375,gcam-v9.1
-CORE,USA,1975,0,gcam-v9.1
-CORE,USA,1990,0,gcam-v9.1
-CORE,USA,2005,0,gcam-v9.1
-CORE,USA,2010,0,gcam-v9.1
-CORE,USA,2015,0,gcam-v9.1
-CORE,USA,2021,0,gcam-v9.1
-CORE,USA,2025,1.00667,gcam-v9.1
-CORE,USA,2030,1.03897,gcam-v9.1
-CORE,USA,2035,1.06665,gcam-v9.1
-CORE,USA,2040,1.09858,gcam-v9.1
-CORE,USA,2045,1.13495,gcam-v9.1
-CORE,USA,2050,1.17632,gcam-v9.1
-CORE,USA,2055,1.21904,gcam-v9.1
-CORE,USA,2060,1.26246,gcam-v9.1
-CORE,USA,2065,1.30364,gcam-v9.1
-CORE,USA,2070,1.34705,gcam-v9.1
-CORE,USA,2075,1.39526,gcam-v9.1
-CORE,USA,2080,1.4432,gcam-v9.1
-CORE,USA,2085,1.48866,gcam-v9.1
-CORE,USA,2090,1.52823,gcam-v9.1
-CORE,USA,2095,1.57119,gcam-v9.1
-CORE,USA,2100,1.61775,gcam-v9.1
 SSP1,Africa_Eastern,1975,0,gcam-v9.1
 SSP1,Africa_Eastern,1990,0,gcam-v9.1
 SSP1,Africa_Eastern,2005,0,gcam-v9.1
@@ -4229,3 +3525,2627 @@ SSP5,USA,2085,2.04681,gcam-v9.1
 SSP5,USA,2090,2.18284,gcam-v9.1
 SSP5,USA,2095,2.31671,gcam-v9.1
 SSP5,USA,2100,2.44921,gcam-v9.1
+CORE,Africa_Eastern,1975,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,1990,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2005,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2010,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2015,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2021,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2025,0.984344,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2026,1.03525,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2027,1.05916,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2028,1.08317,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2029,1.10392,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2030,1.10949,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2031,1.15665,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2032,1.18891,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2033,1.21713,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2034,1.24221,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2035,1.24995,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2036,1.31248,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2037,1.34527,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2038,1.36988,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2039,1.39138,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2040,1.3983,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2041,1.44879,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2042,1.48093,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2043,1.50792,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2044,1.53195,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2045,1.54174,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2046,1.58992,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2047,1.62439,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2048,1.65304,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2049,1.67788,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2050,1.68925,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2051,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2052,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2053,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2054,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2055,1.66159,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2056,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2057,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2058,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2059,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2060,1.74558,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2061,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2062,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2063,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2064,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2065,1.83556,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2066,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2067,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2068,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2069,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2070,1.92654,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2071,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2072,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2073,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2074,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2075,2.0242,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2076,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2077,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2078,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2079,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2080,2.12739,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2081,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2082,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2083,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2084,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2085,2.23719,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2086,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2087,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2088,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2089,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2090,2.36143,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2091,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2092,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2093,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2094,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2095,2.49994,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2096,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2097,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2098,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2099,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Eastern,2100,2.65252,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,1975,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,1990,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2005,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2010,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2015,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2021,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2025,1.12199,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2026,1.16936,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2027,1.19851,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2028,1.22222,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2029,1.24768,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2030,1.27263,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2031,1.31508,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2032,1.35457,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2033,1.39107,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2034,1.4257,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2035,1.45794,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2036,1.58293,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2037,1.6298,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2038,1.65785,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2039,1.68478,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2040,1.70888,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2041,1.76554,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2042,1.8031,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2043,1.83645,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2044,1.87326,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2045,1.90782,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2046,1.95935,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2047,2.00439,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2048,2.04255,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2049,2.07638,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2050,2.10524,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2051,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2052,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2053,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2054,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2055,1.75826,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2056,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2057,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2058,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2059,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2060,1.79173,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2061,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2062,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2063,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2064,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2065,1.8153,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2066,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2067,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2068,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2069,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2070,1.83482,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2071,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2072,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2073,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2074,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2075,1.86794,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2076,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2077,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2078,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2079,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2080,1.92195,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2081,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2082,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2083,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2084,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2085,1.99222,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2086,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2087,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2088,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2089,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2090,2.07059,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2091,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2092,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2093,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2094,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2095,2.15423,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2096,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2097,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2098,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2099,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Northern,2100,2.24161,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,1975,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,1990,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2005,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2010,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2015,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2021,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2025,0.925248,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2026,0.961333,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2027,0.971517,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2028,0.987157,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2029,1.00727,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2030,1.01441,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2031,1.06917,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2032,1.1078,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2033,1.14236,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2034,1.17377,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2035,1.18817,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2036,1.26956,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2037,1.31288,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2038,1.34267,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2039,1.37052,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2040,1.38341,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2041,1.44702,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2042,1.48772,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2043,1.52281,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2044,1.55648,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2045,1.57521,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2046,1.63455,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2047,1.67755,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2048,1.71378,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2049,1.74484,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2050,1.76061,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2051,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2052,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2053,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2054,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2055,1.32607,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2056,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2057,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2058,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2059,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2060,1.39385,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2061,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2062,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2063,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2064,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2065,1.46717,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2066,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2067,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2068,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2069,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2070,1.538,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2071,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2072,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2073,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2074,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2075,1.61042,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2076,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2077,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2078,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2079,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2080,1.68601,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2081,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2082,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2083,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2084,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2085,1.76369,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2086,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2087,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2088,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2089,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2090,1.84368,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2091,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2092,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2093,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2094,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2095,1.92963,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2096,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2097,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2098,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2099,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Southern,2100,2.02368,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,1975,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,1990,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2005,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2010,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2015,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2021,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2025,1.07165,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2026,1.11242,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2027,1.13068,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2028,1.14863,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2029,1.16586,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2030,1.17169,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2031,1.22617,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2032,1.26503,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2033,1.30028,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2034,1.33261,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2035,1.34713,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2036,1.42144,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2037,1.46211,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2038,1.49227,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2039,1.5191,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2040,1.52967,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2041,1.58633,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2042,1.62013,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2043,1.64938,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2044,1.67801,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2045,1.69065,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2046,1.74243,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2047,1.77678,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2048,1.80529,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2049,1.82946,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2050,1.83781,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2051,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2052,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2053,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2054,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2055,1.66333,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2056,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2057,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2058,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2059,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2060,1.7051,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2061,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2062,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2063,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2064,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2065,1.74322,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2066,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2067,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2068,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2069,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2070,1.77984,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2071,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2072,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2073,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2074,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2075,1.81927,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2076,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2077,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2078,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2079,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2080,1.86432,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2081,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2082,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2083,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2084,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2085,1.91681,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2086,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2087,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2088,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2089,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2090,1.97961,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2091,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2092,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2093,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2094,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2095,2.04908,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2096,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2097,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2098,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2099,0,gcam-v9.1-4-gbd29001
+CORE,Africa_Western,2100,2.12693,gcam-v9.1-4-gbd29001
+CORE,Argentina,1975,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,1990,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2005,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2010,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2015,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2021,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2025,1.02689,gcam-v9.1-4-gbd29001
+CORE,Argentina,2026,1.03553,gcam-v9.1-4-gbd29001
+CORE,Argentina,2027,1.04916,gcam-v9.1-4-gbd29001
+CORE,Argentina,2028,1.06279,gcam-v9.1-4-gbd29001
+CORE,Argentina,2029,1.0764,gcam-v9.1-4-gbd29001
+CORE,Argentina,2030,1.09326,gcam-v9.1-4-gbd29001
+CORE,Argentina,2031,1.10367,gcam-v9.1-4-gbd29001
+CORE,Argentina,2032,1.11682,gcam-v9.1-4-gbd29001
+CORE,Argentina,2033,1.12994,gcam-v9.1-4-gbd29001
+CORE,Argentina,2034,1.14345,gcam-v9.1-4-gbd29001
+CORE,Argentina,2035,1.16032,gcam-v9.1-4-gbd29001
+CORE,Argentina,2036,1.18367,gcam-v9.1-4-gbd29001
+CORE,Argentina,2037,1.20301,gcam-v9.1-4-gbd29001
+CORE,Argentina,2038,1.22065,gcam-v9.1-4-gbd29001
+CORE,Argentina,2039,1.23824,gcam-v9.1-4-gbd29001
+CORE,Argentina,2040,1.25869,gcam-v9.1-4-gbd29001
+CORE,Argentina,2041,1.28984,gcam-v9.1-4-gbd29001
+CORE,Argentina,2042,1.31215,gcam-v9.1-4-gbd29001
+CORE,Argentina,2043,1.3343,gcam-v9.1-4-gbd29001
+CORE,Argentina,2044,1.35715,gcam-v9.1-4-gbd29001
+CORE,Argentina,2045,1.38309,gcam-v9.1-4-gbd29001
+CORE,Argentina,2046,1.41021,gcam-v9.1-4-gbd29001
+CORE,Argentina,2047,1.43871,gcam-v9.1-4-gbd29001
+CORE,Argentina,2048,1.46527,gcam-v9.1-4-gbd29001
+CORE,Argentina,2049,1.49104,gcam-v9.1-4-gbd29001
+CORE,Argentina,2050,1.51867,gcam-v9.1-4-gbd29001
+CORE,Argentina,2051,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2052,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2053,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2054,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2055,1.42975,gcam-v9.1-4-gbd29001
+CORE,Argentina,2056,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2057,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2058,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2059,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2060,1.53497,gcam-v9.1-4-gbd29001
+CORE,Argentina,2061,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2062,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2063,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2064,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2065,1.64524,gcam-v9.1-4-gbd29001
+CORE,Argentina,2066,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2067,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2068,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2069,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2070,1.75812,gcam-v9.1-4-gbd29001
+CORE,Argentina,2071,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2072,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2073,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2074,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2075,1.8754,gcam-v9.1-4-gbd29001
+CORE,Argentina,2076,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2077,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2078,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2079,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2080,2.00216,gcam-v9.1-4-gbd29001
+CORE,Argentina,2081,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2082,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2083,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2084,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2085,2.12953,gcam-v9.1-4-gbd29001
+CORE,Argentina,2086,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2087,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2088,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2089,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2090,2.24151,gcam-v9.1-4-gbd29001
+CORE,Argentina,2091,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2092,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2093,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2094,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2095,2.35446,gcam-v9.1-4-gbd29001
+CORE,Argentina,2096,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2097,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2098,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2099,0,gcam-v9.1-4-gbd29001
+CORE,Argentina,2100,2.47046,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,1975,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,1990,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2005,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2010,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2015,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2021,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2025,1.01061,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2026,1.02173,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2027,1.03552,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2028,1.05044,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2029,1.06605,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2030,1.08368,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2031,1.1005,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2032,1.11862,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2033,1.13693,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2034,1.15556,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2035,1.1757,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2036,1.20428,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2037,1.22627,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2038,1.24667,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2039,1.26719,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2040,1.28878,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2041,1.31621,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2042,1.33759,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2043,1.35877,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2044,1.37979,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2045,1.40132,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2046,1.42484,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2047,1.45027,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2048,1.47289,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2049,1.49547,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2050,1.51838,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2051,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2052,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2053,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2054,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2055,1.4027,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2056,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2057,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2058,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2059,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2060,1.47729,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2061,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2062,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2063,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2064,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2065,1.54681,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2066,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2067,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2068,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2069,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2070,1.60514,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2071,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2072,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2073,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2074,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2075,1.66766,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2076,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2077,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2078,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2079,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2080,1.73512,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2081,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2082,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2083,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2084,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2085,1.79938,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2086,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2087,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2088,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2089,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2090,1.85538,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2091,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2092,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2093,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2094,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2095,1.91163,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2096,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2097,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2098,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2099,0,gcam-v9.1-4-gbd29001
+CORE,Australia_NZ,2100,1.96711,gcam-v9.1-4-gbd29001
+CORE,Brazil,1975,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,1990,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2005,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2010,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2015,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2021,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2025,1.01543,gcam-v9.1-4-gbd29001
+CORE,Brazil,2026,1.02632,gcam-v9.1-4-gbd29001
+CORE,Brazil,2027,1.03537,gcam-v9.1-4-gbd29001
+CORE,Brazil,2028,1.04646,gcam-v9.1-4-gbd29001
+CORE,Brazil,2029,1.0577,gcam-v9.1-4-gbd29001
+CORE,Brazil,2030,1.0728,gcam-v9.1-4-gbd29001
+CORE,Brazil,2031,1.09878,gcam-v9.1-4-gbd29001
+CORE,Brazil,2032,1.12676,gcam-v9.1-4-gbd29001
+CORE,Brazil,2033,1.1549,gcam-v9.1-4-gbd29001
+CORE,Brazil,2034,1.18352,gcam-v9.1-4-gbd29001
+CORE,Brazil,2035,1.21633,gcam-v9.1-4-gbd29001
+CORE,Brazil,2036,1.2659,gcam-v9.1-4-gbd29001
+CORE,Brazil,2037,1.30755,gcam-v9.1-4-gbd29001
+CORE,Brazil,2038,1.34587,gcam-v9.1-4-gbd29001
+CORE,Brazil,2039,1.38375,gcam-v9.1-4-gbd29001
+CORE,Brazil,2040,1.42688,gcam-v9.1-4-gbd29001
+CORE,Brazil,2041,1.48188,gcam-v9.1-4-gbd29001
+CORE,Brazil,2042,1.52787,gcam-v9.1-4-gbd29001
+CORE,Brazil,2043,1.57314,gcam-v9.1-4-gbd29001
+CORE,Brazil,2044,1.61804,gcam-v9.1-4-gbd29001
+CORE,Brazil,2045,1.66902,gcam-v9.1-4-gbd29001
+CORE,Brazil,2046,1.71844,gcam-v9.1-4-gbd29001
+CORE,Brazil,2047,1.7703,gcam-v9.1-4-gbd29001
+CORE,Brazil,2048,1.81951,gcam-v9.1-4-gbd29001
+CORE,Brazil,2049,1.86725,gcam-v9.1-4-gbd29001
+CORE,Brazil,2050,1.92201,gcam-v9.1-4-gbd29001
+CORE,Brazil,2051,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2052,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2053,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2054,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2055,1.87679,gcam-v9.1-4-gbd29001
+CORE,Brazil,2056,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2057,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2058,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2059,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2060,2.03936,gcam-v9.1-4-gbd29001
+CORE,Brazil,2061,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2062,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2063,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2064,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2065,2.20976,gcam-v9.1-4-gbd29001
+CORE,Brazil,2066,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2067,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2068,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2069,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2070,2.37122,gcam-v9.1-4-gbd29001
+CORE,Brazil,2071,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2072,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2073,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2074,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2075,2.52669,gcam-v9.1-4-gbd29001
+CORE,Brazil,2076,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2077,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2078,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2079,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2080,2.6797,gcam-v9.1-4-gbd29001
+CORE,Brazil,2081,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2082,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2083,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2084,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2085,2.83674,gcam-v9.1-4-gbd29001
+CORE,Brazil,2086,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2087,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2088,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2089,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2090,2.98252,gcam-v9.1-4-gbd29001
+CORE,Brazil,2091,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2092,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2093,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2094,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2095,3.13401,gcam-v9.1-4-gbd29001
+CORE,Brazil,2096,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2097,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2098,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2099,0,gcam-v9.1-4-gbd29001
+CORE,Brazil,2100,3.29198,gcam-v9.1-4-gbd29001
+CORE,Canada,1975,0,gcam-v9.1-4-gbd29001
+CORE,Canada,1990,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2005,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2010,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2015,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2021,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2025,1.00485,gcam-v9.1-4-gbd29001
+CORE,Canada,2026,1.01696,gcam-v9.1-4-gbd29001
+CORE,Canada,2027,1.03382,gcam-v9.1-4-gbd29001
+CORE,Canada,2028,1.05142,gcam-v9.1-4-gbd29001
+CORE,Canada,2029,1.06961,gcam-v9.1-4-gbd29001
+CORE,Canada,2030,1.09036,gcam-v9.1-4-gbd29001
+CORE,Canada,2031,1.10827,gcam-v9.1-4-gbd29001
+CORE,Canada,2032,1.12816,gcam-v9.1-4-gbd29001
+CORE,Canada,2033,1.14834,gcam-v9.1-4-gbd29001
+CORE,Canada,2034,1.16886,gcam-v9.1-4-gbd29001
+CORE,Canada,2035,1.19174,gcam-v9.1-4-gbd29001
+CORE,Canada,2036,1.22098,gcam-v9.1-4-gbd29001
+CORE,Canada,2037,1.24489,gcam-v9.1-4-gbd29001
+CORE,Canada,2038,1.26745,gcam-v9.1-4-gbd29001
+CORE,Canada,2039,1.29037,gcam-v9.1-4-gbd29001
+CORE,Canada,2040,1.31486,gcam-v9.1-4-gbd29001
+CORE,Canada,2041,1.34544,gcam-v9.1-4-gbd29001
+CORE,Canada,2042,1.37007,gcam-v9.1-4-gbd29001
+CORE,Canada,2043,1.39502,gcam-v9.1-4-gbd29001
+CORE,Canada,2044,1.4205,gcam-v9.1-4-gbd29001
+CORE,Canada,2045,1.44771,gcam-v9.1-4-gbd29001
+CORE,Canada,2046,1.47472,gcam-v9.1-4-gbd29001
+CORE,Canada,2047,1.5039,gcam-v9.1-4-gbd29001
+CORE,Canada,2048,1.53175,gcam-v9.1-4-gbd29001
+CORE,Canada,2049,1.56007,gcam-v9.1-4-gbd29001
+CORE,Canada,2050,1.58853,gcam-v9.1-4-gbd29001
+CORE,Canada,2051,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2052,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2053,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2054,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2055,1.56503,gcam-v9.1-4-gbd29001
+CORE,Canada,2056,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2057,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2058,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2059,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2060,1.66245,gcam-v9.1-4-gbd29001
+CORE,Canada,2061,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2062,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2063,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2064,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2065,1.75628,gcam-v9.1-4-gbd29001
+CORE,Canada,2066,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2067,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2068,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2069,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2070,1.83455,gcam-v9.1-4-gbd29001
+CORE,Canada,2071,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2072,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2073,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2074,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2075,1.9171,gcam-v9.1-4-gbd29001
+CORE,Canada,2076,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2077,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2078,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2079,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2080,2.00892,gcam-v9.1-4-gbd29001
+CORE,Canada,2081,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2082,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2083,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2084,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2085,2.09248,gcam-v9.1-4-gbd29001
+CORE,Canada,2086,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2087,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2088,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2089,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2090,2.15866,gcam-v9.1-4-gbd29001
+CORE,Canada,2091,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2092,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2093,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2094,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2095,2.22755,gcam-v9.1-4-gbd29001
+CORE,Canada,2096,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2097,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2098,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2099,0,gcam-v9.1-4-gbd29001
+CORE,Canada,2100,2.29869,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,1975,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,1990,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2005,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2010,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2015,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2021,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2025,1.06681,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2026,1.08749,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2027,1.10421,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2028,1.12088,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2029,1.13678,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2030,1.15105,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2031,1.17687,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2032,1.20037,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2033,1.22282,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2034,1.24494,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2035,1.2647,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2036,1.29868,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2037,1.32678,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2038,1.35175,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2039,1.37587,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2040,1.39789,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2041,1.43423,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2042,1.46159,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2043,1.48785,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2044,1.51349,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2045,1.53686,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2046,1.57053,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2047,1.60136,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2048,1.63022,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2049,1.65819,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2050,1.68345,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2051,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2052,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2053,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2054,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2055,1.63892,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2056,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2057,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2058,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2059,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2060,1.73539,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2061,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2062,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2063,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2064,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2065,1.83406,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2066,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2067,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2068,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2069,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2070,1.93147,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2071,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2072,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2073,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2074,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2075,2.02773,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2076,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2077,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2078,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2079,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2080,2.12614,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2081,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2082,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2083,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2084,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2085,2.22538,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2086,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2087,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2088,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2089,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2090,2.3255,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2091,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2092,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2093,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2094,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2095,2.42956,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2096,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2097,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2098,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2099,0,gcam-v9.1-4-gbd29001
+CORE,Central America and Caribbean,2100,2.53831,gcam-v9.1-4-gbd29001
+CORE,Central Asia,1975,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,1990,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2005,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2010,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2015,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2021,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2025,1.1844,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2026,1.20963,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2027,1.23915,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2028,1.27249,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2029,1.30731,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2030,1.34455,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2031,1.38059,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2032,1.41767,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2033,1.45323,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2034,1.48795,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2035,1.52429,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2036,1.57923,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2037,1.61198,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2038,1.64074,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2039,1.66916,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2040,1.69758,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2041,1.7438,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2042,1.76798,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2043,1.79065,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2044,1.81567,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2045,1.84148,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2046,1.86899,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2047,1.89726,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2048,1.92212,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2049,1.94577,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2050,1.96829,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2051,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2052,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2053,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2054,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2055,1.60435,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2056,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2057,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2058,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2059,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2060,1.65967,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2061,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2062,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2063,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2064,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2065,1.72123,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2066,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2067,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2068,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2069,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2070,1.78219,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2071,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2072,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2073,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2074,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2075,1.84159,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2076,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2077,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2078,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2079,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2080,1.91614,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2081,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2082,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2083,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2084,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2085,2.00362,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2086,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2087,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2088,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2089,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2090,2.09977,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2091,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2092,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2093,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2094,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2095,2.19765,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2096,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2097,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2098,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2099,0,gcam-v9.1-4-gbd29001
+CORE,Central Asia,2100,2.29668,gcam-v9.1-4-gbd29001
+CORE,China,1975,0,gcam-v9.1-4-gbd29001
+CORE,China,1990,0,gcam-v9.1-4-gbd29001
+CORE,China,2005,0,gcam-v9.1-4-gbd29001
+CORE,China,2010,0,gcam-v9.1-4-gbd29001
+CORE,China,2015,0,gcam-v9.1-4-gbd29001
+CORE,China,2021,0,gcam-v9.1-4-gbd29001
+CORE,China,2025,1.10192,gcam-v9.1-4-gbd29001
+CORE,China,2026,1.12878,gcam-v9.1-4-gbd29001
+CORE,China,2027,1.15682,gcam-v9.1-4-gbd29001
+CORE,China,2028,1.18653,gcam-v9.1-4-gbd29001
+CORE,China,2029,1.21771,gcam-v9.1-4-gbd29001
+CORE,China,2030,1.25048,gcam-v9.1-4-gbd29001
+CORE,China,2031,1.28346,gcam-v9.1-4-gbd29001
+CORE,China,2032,1.31805,gcam-v9.1-4-gbd29001
+CORE,China,2033,1.35403,gcam-v9.1-4-gbd29001
+CORE,China,2034,1.39155,gcam-v9.1-4-gbd29001
+CORE,China,2035,1.43058,gcam-v9.1-4-gbd29001
+CORE,China,2036,1.47107,gcam-v9.1-4-gbd29001
+CORE,China,2037,1.50657,gcam-v9.1-4-gbd29001
+CORE,China,2038,1.54086,gcam-v9.1-4-gbd29001
+CORE,China,2039,1.57647,gcam-v9.1-4-gbd29001
+CORE,China,2040,1.61316,gcam-v9.1-4-gbd29001
+CORE,China,2041,1.64675,gcam-v9.1-4-gbd29001
+CORE,China,2042,1.68097,gcam-v9.1-4-gbd29001
+CORE,China,2043,1.71547,gcam-v9.1-4-gbd29001
+CORE,China,2044,1.75088,gcam-v9.1-4-gbd29001
+CORE,China,2045,1.78711,gcam-v9.1-4-gbd29001
+CORE,China,2046,1.83155,gcam-v9.1-4-gbd29001
+CORE,China,2047,1.8759,gcam-v9.1-4-gbd29001
+CORE,China,2048,1.91999,gcam-v9.1-4-gbd29001
+CORE,China,2049,1.96462,gcam-v9.1-4-gbd29001
+CORE,China,2050,2.00998,gcam-v9.1-4-gbd29001
+CORE,China,2051,0,gcam-v9.1-4-gbd29001
+CORE,China,2052,0,gcam-v9.1-4-gbd29001
+CORE,China,2053,0,gcam-v9.1-4-gbd29001
+CORE,China,2054,0,gcam-v9.1-4-gbd29001
+CORE,China,2055,1.76414,gcam-v9.1-4-gbd29001
+CORE,China,2056,0,gcam-v9.1-4-gbd29001
+CORE,China,2057,0,gcam-v9.1-4-gbd29001
+CORE,China,2058,0,gcam-v9.1-4-gbd29001
+CORE,China,2059,0,gcam-v9.1-4-gbd29001
+CORE,China,2060,1.90717,gcam-v9.1-4-gbd29001
+CORE,China,2061,0,gcam-v9.1-4-gbd29001
+CORE,China,2062,0,gcam-v9.1-4-gbd29001
+CORE,China,2063,0,gcam-v9.1-4-gbd29001
+CORE,China,2064,0,gcam-v9.1-4-gbd29001
+CORE,China,2065,2.028,gcam-v9.1-4-gbd29001
+CORE,China,2066,0,gcam-v9.1-4-gbd29001
+CORE,China,2067,0,gcam-v9.1-4-gbd29001
+CORE,China,2068,0,gcam-v9.1-4-gbd29001
+CORE,China,2069,0,gcam-v9.1-4-gbd29001
+CORE,China,2070,2.13884,gcam-v9.1-4-gbd29001
+CORE,China,2071,0,gcam-v9.1-4-gbd29001
+CORE,China,2072,0,gcam-v9.1-4-gbd29001
+CORE,China,2073,0,gcam-v9.1-4-gbd29001
+CORE,China,2074,0,gcam-v9.1-4-gbd29001
+CORE,China,2075,2.26452,gcam-v9.1-4-gbd29001
+CORE,China,2076,0,gcam-v9.1-4-gbd29001
+CORE,China,2077,0,gcam-v9.1-4-gbd29001
+CORE,China,2078,0,gcam-v9.1-4-gbd29001
+CORE,China,2079,0,gcam-v9.1-4-gbd29001
+CORE,China,2080,2.42546,gcam-v9.1-4-gbd29001
+CORE,China,2081,0,gcam-v9.1-4-gbd29001
+CORE,China,2082,0,gcam-v9.1-4-gbd29001
+CORE,China,2083,0,gcam-v9.1-4-gbd29001
+CORE,China,2084,0,gcam-v9.1-4-gbd29001
+CORE,China,2085,2.5978,gcam-v9.1-4-gbd29001
+CORE,China,2086,0,gcam-v9.1-4-gbd29001
+CORE,China,2087,0,gcam-v9.1-4-gbd29001
+CORE,China,2088,0,gcam-v9.1-4-gbd29001
+CORE,China,2089,0,gcam-v9.1-4-gbd29001
+CORE,China,2090,2.70928,gcam-v9.1-4-gbd29001
+CORE,China,2091,0,gcam-v9.1-4-gbd29001
+CORE,China,2092,0,gcam-v9.1-4-gbd29001
+CORE,China,2093,0,gcam-v9.1-4-gbd29001
+CORE,China,2094,0,gcam-v9.1-4-gbd29001
+CORE,China,2095,2.80587,gcam-v9.1-4-gbd29001
+CORE,China,2096,0,gcam-v9.1-4-gbd29001
+CORE,China,2097,0,gcam-v9.1-4-gbd29001
+CORE,China,2098,0,gcam-v9.1-4-gbd29001
+CORE,China,2099,0,gcam-v9.1-4-gbd29001
+CORE,China,2100,2.90279,gcam-v9.1-4-gbd29001
+CORE,Colombia,1975,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,1990,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2005,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2010,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2015,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2021,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2025,1.05253,gcam-v9.1-4-gbd29001
+CORE,Colombia,2026,1.06906,gcam-v9.1-4-gbd29001
+CORE,Colombia,2027,1.08345,gcam-v9.1-4-gbd29001
+CORE,Colombia,2028,1.09828,gcam-v9.1-4-gbd29001
+CORE,Colombia,2029,1.11548,gcam-v9.1-4-gbd29001
+CORE,Colombia,2030,1.13231,gcam-v9.1-4-gbd29001
+CORE,Colombia,2031,1.163,gcam-v9.1-4-gbd29001
+CORE,Colombia,2032,1.19216,gcam-v9.1-4-gbd29001
+CORE,Colombia,2033,1.21972,gcam-v9.1-4-gbd29001
+CORE,Colombia,2034,1.24819,gcam-v9.1-4-gbd29001
+CORE,Colombia,2035,1.2762,gcam-v9.1-4-gbd29001
+CORE,Colombia,2036,1.32382,gcam-v9.1-4-gbd29001
+CORE,Colombia,2037,1.36163,gcam-v9.1-4-gbd29001
+CORE,Colombia,2038,1.39407,gcam-v9.1-4-gbd29001
+CORE,Colombia,2039,1.42512,gcam-v9.1-4-gbd29001
+CORE,Colombia,2040,1.45491,gcam-v9.1-4-gbd29001
+CORE,Colombia,2041,1.50444,gcam-v9.1-4-gbd29001
+CORE,Colombia,2042,1.5396,gcam-v9.1-4-gbd29001
+CORE,Colombia,2043,1.57349,gcam-v9.1-4-gbd29001
+CORE,Colombia,2044,1.60628,gcam-v9.1-4-gbd29001
+CORE,Colombia,2045,1.63771,gcam-v9.1-4-gbd29001
+CORE,Colombia,2046,1.67627,gcam-v9.1-4-gbd29001
+CORE,Colombia,2047,1.71478,gcam-v9.1-4-gbd29001
+CORE,Colombia,2048,1.75065,gcam-v9.1-4-gbd29001
+CORE,Colombia,2049,1.78592,gcam-v9.1-4-gbd29001
+CORE,Colombia,2050,1.81966,gcam-v9.1-4-gbd29001
+CORE,Colombia,2051,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2052,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2053,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2054,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2055,1.85481,gcam-v9.1-4-gbd29001
+CORE,Colombia,2056,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2057,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2058,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2059,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2060,1.98348,gcam-v9.1-4-gbd29001
+CORE,Colombia,2061,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2062,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2063,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2064,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2065,2.11142,gcam-v9.1-4-gbd29001
+CORE,Colombia,2066,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2067,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2068,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2069,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2070,2.22932,gcam-v9.1-4-gbd29001
+CORE,Colombia,2071,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2072,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2073,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2074,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2075,2.3306,gcam-v9.1-4-gbd29001
+CORE,Colombia,2076,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2077,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2078,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2079,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2080,2.42332,gcam-v9.1-4-gbd29001
+CORE,Colombia,2081,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2082,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2083,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2084,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2085,2.51625,gcam-v9.1-4-gbd29001
+CORE,Colombia,2086,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2087,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2088,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2089,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2090,2.60757,gcam-v9.1-4-gbd29001
+CORE,Colombia,2091,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2092,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2093,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2094,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2095,2.69906,gcam-v9.1-4-gbd29001
+CORE,Colombia,2096,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2097,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2098,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2099,0,gcam-v9.1-4-gbd29001
+CORE,Colombia,2100,2.79047,gcam-v9.1-4-gbd29001
+CORE,EU-12,1975,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,1990,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2005,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2010,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2015,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2021,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2025,1.05312,gcam-v9.1-4-gbd29001
+CORE,EU-12,2026,1.07309,gcam-v9.1-4-gbd29001
+CORE,EU-12,2027,1.09408,gcam-v9.1-4-gbd29001
+CORE,EU-12,2028,1.11539,gcam-v9.1-4-gbd29001
+CORE,EU-12,2029,1.13763,gcam-v9.1-4-gbd29001
+CORE,EU-12,2030,1.1611,gcam-v9.1-4-gbd29001
+CORE,EU-12,2031,1.17939,gcam-v9.1-4-gbd29001
+CORE,EU-12,2032,1.19894,gcam-v9.1-4-gbd29001
+CORE,EU-12,2033,1.21889,gcam-v9.1-4-gbd29001
+CORE,EU-12,2034,1.23984,gcam-v9.1-4-gbd29001
+CORE,EU-12,2035,1.26219,gcam-v9.1-4-gbd29001
+CORE,EU-12,2036,1.28827,gcam-v9.1-4-gbd29001
+CORE,EU-12,2037,1.30972,gcam-v9.1-4-gbd29001
+CORE,EU-12,2038,1.3297,gcam-v9.1-4-gbd29001
+CORE,EU-12,2039,1.35047,gcam-v9.1-4-gbd29001
+CORE,EU-12,2040,1.37195,gcam-v9.1-4-gbd29001
+CORE,EU-12,2041,1.40289,gcam-v9.1-4-gbd29001
+CORE,EU-12,2042,1.4202,gcam-v9.1-4-gbd29001
+CORE,EU-12,2043,1.4384,gcam-v9.1-4-gbd29001
+CORE,EU-12,2044,1.45776,gcam-v9.1-4-gbd29001
+CORE,EU-12,2045,1.47843,gcam-v9.1-4-gbd29001
+CORE,EU-12,2046,1.49734,gcam-v9.1-4-gbd29001
+CORE,EU-12,2047,1.51711,gcam-v9.1-4-gbd29001
+CORE,EU-12,2048,1.53673,gcam-v9.1-4-gbd29001
+CORE,EU-12,2049,1.55709,gcam-v9.1-4-gbd29001
+CORE,EU-12,2050,1.57831,gcam-v9.1-4-gbd29001
+CORE,EU-12,2051,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2052,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2053,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2054,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2055,1.41946,gcam-v9.1-4-gbd29001
+CORE,EU-12,2056,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2057,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2058,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2059,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2060,1.4681,gcam-v9.1-4-gbd29001
+CORE,EU-12,2061,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2062,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2063,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2064,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2065,1.50334,gcam-v9.1-4-gbd29001
+CORE,EU-12,2066,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2067,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2068,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2069,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2070,1.53371,gcam-v9.1-4-gbd29001
+CORE,EU-12,2071,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2072,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2073,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2074,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2075,1.57227,gcam-v9.1-4-gbd29001
+CORE,EU-12,2076,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2077,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2078,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2079,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2080,1.61523,gcam-v9.1-4-gbd29001
+CORE,EU-12,2081,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2082,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2083,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2084,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2085,1.66638,gcam-v9.1-4-gbd29001
+CORE,EU-12,2086,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2087,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2088,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2089,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2090,1.71646,gcam-v9.1-4-gbd29001
+CORE,EU-12,2091,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2092,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2093,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2094,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2095,1.76417,gcam-v9.1-4-gbd29001
+CORE,EU-12,2096,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2097,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2098,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2099,0,gcam-v9.1-4-gbd29001
+CORE,EU-12,2100,1.81051,gcam-v9.1-4-gbd29001
+CORE,EU-15,1975,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,1990,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2005,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2010,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2015,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2021,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2025,1.04181,gcam-v9.1-4-gbd29001
+CORE,EU-15,2026,1.05253,gcam-v9.1-4-gbd29001
+CORE,EU-15,2027,1.06447,gcam-v9.1-4-gbd29001
+CORE,EU-15,2028,1.0777,gcam-v9.1-4-gbd29001
+CORE,EU-15,2029,1.09143,gcam-v9.1-4-gbd29001
+CORE,EU-15,2030,1.10603,gcam-v9.1-4-gbd29001
+CORE,EU-15,2031,1.12179,gcam-v9.1-4-gbd29001
+CORE,EU-15,2032,1.13823,gcam-v9.1-4-gbd29001
+CORE,EU-15,2033,1.15496,gcam-v9.1-4-gbd29001
+CORE,EU-15,2034,1.17222,gcam-v9.1-4-gbd29001
+CORE,EU-15,2035,1.19015,gcam-v9.1-4-gbd29001
+CORE,EU-15,2036,1.21101,gcam-v9.1-4-gbd29001
+CORE,EU-15,2037,1.23054,gcam-v9.1-4-gbd29001
+CORE,EU-15,2038,1.24957,gcam-v9.1-4-gbd29001
+CORE,EU-15,2039,1.26882,gcam-v9.1-4-gbd29001
+CORE,EU-15,2040,1.28843,gcam-v9.1-4-gbd29001
+CORE,EU-15,2041,1.31354,gcam-v9.1-4-gbd29001
+CORE,EU-15,2042,1.33278,gcam-v9.1-4-gbd29001
+CORE,EU-15,2043,1.35216,gcam-v9.1-4-gbd29001
+CORE,EU-15,2044,1.37179,gcam-v9.1-4-gbd29001
+CORE,EU-15,2045,1.39196,gcam-v9.1-4-gbd29001
+CORE,EU-15,2046,1.413,gcam-v9.1-4-gbd29001
+CORE,EU-15,2047,1.43382,gcam-v9.1-4-gbd29001
+CORE,EU-15,2048,1.45413,gcam-v9.1-4-gbd29001
+CORE,EU-15,2049,1.47448,gcam-v9.1-4-gbd29001
+CORE,EU-15,2050,1.49517,gcam-v9.1-4-gbd29001
+CORE,EU-15,2051,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2052,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2053,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2054,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2055,1.41765,gcam-v9.1-4-gbd29001
+CORE,EU-15,2056,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2057,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2058,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2059,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2060,1.48229,gcam-v9.1-4-gbd29001
+CORE,EU-15,2061,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2062,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2063,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2064,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2065,1.54311,gcam-v9.1-4-gbd29001
+CORE,EU-15,2066,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2067,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2068,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2069,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2070,1.59932,gcam-v9.1-4-gbd29001
+CORE,EU-15,2071,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2072,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2073,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2074,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2075,1.65889,gcam-v9.1-4-gbd29001
+CORE,EU-15,2076,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2077,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2078,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2079,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2080,1.72216,gcam-v9.1-4-gbd29001
+CORE,EU-15,2081,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2082,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2083,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2084,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2085,1.78209,gcam-v9.1-4-gbd29001
+CORE,EU-15,2086,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2087,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2088,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2089,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2090,1.8341,gcam-v9.1-4-gbd29001
+CORE,EU-15,2091,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2092,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2093,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2094,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2095,1.88508,gcam-v9.1-4-gbd29001
+CORE,EU-15,2096,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2097,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2098,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2099,0,gcam-v9.1-4-gbd29001
+CORE,EU-15,2100,1.93501,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,1975,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,1990,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2005,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2010,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2015,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2021,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2025,1.01391,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2026,1.02525,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2027,1.03955,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2028,1.05478,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2029,1.0711,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2030,1.08898,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2031,1.1064,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2032,1.12511,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2033,1.14331,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2034,1.16235,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2035,1.18265,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2036,1.20986,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2037,1.23022,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2038,1.24691,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2039,1.26401,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2040,1.28161,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2041,1.31929,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2042,1.33388,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2043,1.34889,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2044,1.36472,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2045,1.38141,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2046,1.3995,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2047,1.4192,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2048,1.43563,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2049,1.45247,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2050,1.46981,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2051,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2052,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2053,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2054,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2055,1.2406,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2056,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2057,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2058,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2059,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2060,1.27396,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2061,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2062,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2063,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2064,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2065,1.30461,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2066,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2067,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2068,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2069,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2070,1.32999,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2071,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2072,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2073,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2074,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2075,1.35491,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2076,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2077,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2078,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2079,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2080,1.38638,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2081,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2082,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2083,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2084,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2085,1.42391,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2086,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2087,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2088,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2089,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2090,1.45691,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2091,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2092,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2093,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2094,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2095,1.49231,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2096,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2097,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2098,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2099,0,gcam-v9.1-4-gbd29001
+CORE,Europe_Non_EU,2100,1.52953,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,1975,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,1990,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2005,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2010,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2015,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2021,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2025,1.00824,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2026,1.00829,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2027,1.01537,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2028,1.02373,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2029,1.03401,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2030,1.04773,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2031,1.05786,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2032,1.07131,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2033,1.08513,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2034,1.0995,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2035,1.11684,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2036,1.12967,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2037,1.1444,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2038,1.15905,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2039,1.17388,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2040,1.19031,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2041,1.2058,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2042,1.22029,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2043,1.23481,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2044,1.24954,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2045,1.26546,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2046,1.28015,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2047,1.29606,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2048,1.3114,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2049,1.32673,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2050,1.34232,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2051,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2052,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2053,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2054,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2055,1.1849,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2056,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2057,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2058,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2059,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2060,1.23551,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2061,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2062,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2063,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2064,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2065,1.28391,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2066,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2067,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2068,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2069,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2070,1.32677,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2071,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2072,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2073,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2074,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2075,1.37526,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2076,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2077,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2078,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2079,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2080,1.43051,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2081,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2082,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2083,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2084,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2085,1.48385,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2086,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2087,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2088,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2089,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2090,1.52863,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2091,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2092,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2093,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2094,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2095,1.57393,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2096,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2097,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2098,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2099,0,gcam-v9.1-4-gbd29001
+CORE,European Free Trade Association,2100,1.6184,gcam-v9.1-4-gbd29001
+CORE,India,1975,0,gcam-v9.1-4-gbd29001
+CORE,India,1990,0,gcam-v9.1-4-gbd29001
+CORE,India,2005,0,gcam-v9.1-4-gbd29001
+CORE,India,2010,0,gcam-v9.1-4-gbd29001
+CORE,India,2015,0,gcam-v9.1-4-gbd29001
+CORE,India,2021,0,gcam-v9.1-4-gbd29001
+CORE,India,2025,1.05732,gcam-v9.1-4-gbd29001
+CORE,India,2026,1.10346,gcam-v9.1-4-gbd29001
+CORE,India,2027,1.13289,gcam-v9.1-4-gbd29001
+CORE,India,2028,1.16269,gcam-v9.1-4-gbd29001
+CORE,India,2029,1.19235,gcam-v9.1-4-gbd29001
+CORE,India,2030,1.2171,gcam-v9.1-4-gbd29001
+CORE,India,2031,1.25643,gcam-v9.1-4-gbd29001
+CORE,India,2032,1.29034,gcam-v9.1-4-gbd29001
+CORE,India,2033,1.32329,gcam-v9.1-4-gbd29001
+CORE,India,2034,1.35539,gcam-v9.1-4-gbd29001
+CORE,India,2035,1.38282,gcam-v9.1-4-gbd29001
+CORE,India,2036,1.43073,gcam-v9.1-4-gbd29001
+CORE,India,2037,1.46846,gcam-v9.1-4-gbd29001
+CORE,India,2038,1.50311,gcam-v9.1-4-gbd29001
+CORE,India,2039,1.53741,gcam-v9.1-4-gbd29001
+CORE,India,2040,1.56851,gcam-v9.1-4-gbd29001
+CORE,India,2041,1.61306,gcam-v9.1-4-gbd29001
+CORE,India,2042,1.65299,gcam-v9.1-4-gbd29001
+CORE,India,2043,1.69149,gcam-v9.1-4-gbd29001
+CORE,India,2044,1.72932,gcam-v9.1-4-gbd29001
+CORE,India,2045,1.76437,gcam-v9.1-4-gbd29001
+CORE,India,2046,1.8123,gcam-v9.1-4-gbd29001
+CORE,India,2047,1.85551,gcam-v9.1-4-gbd29001
+CORE,India,2048,1.89757,gcam-v9.1-4-gbd29001
+CORE,India,2049,1.93846,gcam-v9.1-4-gbd29001
+CORE,India,2050,1.97622,gcam-v9.1-4-gbd29001
+CORE,India,2051,0,gcam-v9.1-4-gbd29001
+CORE,India,2052,0,gcam-v9.1-4-gbd29001
+CORE,India,2053,0,gcam-v9.1-4-gbd29001
+CORE,India,2054,0,gcam-v9.1-4-gbd29001
+CORE,India,2055,1.75668,gcam-v9.1-4-gbd29001
+CORE,India,2056,0,gcam-v9.1-4-gbd29001
+CORE,India,2057,0,gcam-v9.1-4-gbd29001
+CORE,India,2058,0,gcam-v9.1-4-gbd29001
+CORE,India,2059,0,gcam-v9.1-4-gbd29001
+CORE,India,2060,1.89476,gcam-v9.1-4-gbd29001
+CORE,India,2061,0,gcam-v9.1-4-gbd29001
+CORE,India,2062,0,gcam-v9.1-4-gbd29001
+CORE,India,2063,0,gcam-v9.1-4-gbd29001
+CORE,India,2064,0,gcam-v9.1-4-gbd29001
+CORE,India,2065,2.04739,gcam-v9.1-4-gbd29001
+CORE,India,2066,0,gcam-v9.1-4-gbd29001
+CORE,India,2067,0,gcam-v9.1-4-gbd29001
+CORE,India,2068,0,gcam-v9.1-4-gbd29001
+CORE,India,2069,0,gcam-v9.1-4-gbd29001
+CORE,India,2070,2.20916,gcam-v9.1-4-gbd29001
+CORE,India,2071,0,gcam-v9.1-4-gbd29001
+CORE,India,2072,0,gcam-v9.1-4-gbd29001
+CORE,India,2073,0,gcam-v9.1-4-gbd29001
+CORE,India,2074,0,gcam-v9.1-4-gbd29001
+CORE,India,2075,2.37349,gcam-v9.1-4-gbd29001
+CORE,India,2076,0,gcam-v9.1-4-gbd29001
+CORE,India,2077,0,gcam-v9.1-4-gbd29001
+CORE,India,2078,0,gcam-v9.1-4-gbd29001
+CORE,India,2079,0,gcam-v9.1-4-gbd29001
+CORE,India,2080,2.53521,gcam-v9.1-4-gbd29001
+CORE,India,2081,0,gcam-v9.1-4-gbd29001
+CORE,India,2082,0,gcam-v9.1-4-gbd29001
+CORE,India,2083,0,gcam-v9.1-4-gbd29001
+CORE,India,2084,0,gcam-v9.1-4-gbd29001
+CORE,India,2085,2.69296,gcam-v9.1-4-gbd29001
+CORE,India,2086,0,gcam-v9.1-4-gbd29001
+CORE,India,2087,0,gcam-v9.1-4-gbd29001
+CORE,India,2088,0,gcam-v9.1-4-gbd29001
+CORE,India,2089,0,gcam-v9.1-4-gbd29001
+CORE,India,2090,2.84495,gcam-v9.1-4-gbd29001
+CORE,India,2091,0,gcam-v9.1-4-gbd29001
+CORE,India,2092,0,gcam-v9.1-4-gbd29001
+CORE,India,2093,0,gcam-v9.1-4-gbd29001
+CORE,India,2094,0,gcam-v9.1-4-gbd29001
+CORE,India,2095,3.00114,gcam-v9.1-4-gbd29001
+CORE,India,2096,0,gcam-v9.1-4-gbd29001
+CORE,India,2097,0,gcam-v9.1-4-gbd29001
+CORE,India,2098,0,gcam-v9.1-4-gbd29001
+CORE,India,2099,0,gcam-v9.1-4-gbd29001
+CORE,India,2100,3.1636,gcam-v9.1-4-gbd29001
+CORE,Indonesia,1975,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,1990,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2005,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2010,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2015,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2021,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2025,1.11398,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2026,1.15526,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2027,1.19022,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2028,1.22341,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2029,1.25622,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2030,1.28566,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2031,1.32247,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2032,1.35577,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2033,1.38848,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2034,1.42077,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2035,1.44972,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2036,1.49484,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2037,1.53328,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2038,1.56905,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2039,1.60438,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2040,1.63581,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2041,1.6797,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2042,1.71682,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2043,1.75321,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2044,1.78959,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2045,1.82178,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2046,1.86298,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2047,1.89968,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2048,1.93537,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2049,1.97036,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2050,2.00039,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2051,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2052,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2053,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2054,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2055,1.77944,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2056,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2057,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2058,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2059,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2060,1.87509,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2061,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2062,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2063,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2064,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2065,1.97793,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2066,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2067,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2068,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2069,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2070,2.08563,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2071,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2072,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2073,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2074,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2075,2.20444,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2076,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2077,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2078,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2079,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2080,2.33213,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2081,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2082,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2083,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2084,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2085,2.45705,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2086,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2087,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2088,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2089,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2090,2.57787,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2091,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2092,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2093,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2094,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2095,2.69715,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2096,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2097,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2098,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2099,0,gcam-v9.1-4-gbd29001
+CORE,Indonesia,2100,2.81376,gcam-v9.1-4-gbd29001
+CORE,Japan,1975,0,gcam-v9.1-4-gbd29001
+CORE,Japan,1990,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2005,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2010,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2015,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2021,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2025,1.02449,gcam-v9.1-4-gbd29001
+CORE,Japan,2026,1.03012,gcam-v9.1-4-gbd29001
+CORE,Japan,2027,1.03677,gcam-v9.1-4-gbd29001
+CORE,Japan,2028,1.04484,gcam-v9.1-4-gbd29001
+CORE,Japan,2029,1.05388,gcam-v9.1-4-gbd29001
+CORE,Japan,2030,1.06363,gcam-v9.1-4-gbd29001
+CORE,Japan,2031,1.07729,gcam-v9.1-4-gbd29001
+CORE,Japan,2032,1.09112,gcam-v9.1-4-gbd29001
+CORE,Japan,2033,1.10534,gcam-v9.1-4-gbd29001
+CORE,Japan,2034,1.12052,gcam-v9.1-4-gbd29001
+CORE,Japan,2035,1.1362,gcam-v9.1-4-gbd29001
+CORE,Japan,2036,1.16292,gcam-v9.1-4-gbd29001
+CORE,Japan,2037,1.1815,gcam-v9.1-4-gbd29001
+CORE,Japan,2038,1.20095,gcam-v9.1-4-gbd29001
+CORE,Japan,2039,1.22118,gcam-v9.1-4-gbd29001
+CORE,Japan,2040,1.24226,gcam-v9.1-4-gbd29001
+CORE,Japan,2041,1.26475,gcam-v9.1-4-gbd29001
+CORE,Japan,2042,1.28472,gcam-v9.1-4-gbd29001
+CORE,Japan,2043,1.3054,gcam-v9.1-4-gbd29001
+CORE,Japan,2044,1.32702,gcam-v9.1-4-gbd29001
+CORE,Japan,2045,1.34983,gcam-v9.1-4-gbd29001
+CORE,Japan,2046,1.37046,gcam-v9.1-4-gbd29001
+CORE,Japan,2047,1.39305,gcam-v9.1-4-gbd29001
+CORE,Japan,2048,1.41358,gcam-v9.1-4-gbd29001
+CORE,Japan,2049,1.43437,gcam-v9.1-4-gbd29001
+CORE,Japan,2050,1.45604,gcam-v9.1-4-gbd29001
+CORE,Japan,2051,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2052,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2053,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2054,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2055,1.37696,gcam-v9.1-4-gbd29001
+CORE,Japan,2056,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2057,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2058,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2059,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2060,1.43718,gcam-v9.1-4-gbd29001
+CORE,Japan,2061,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2062,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2063,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2064,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2065,1.50068,gcam-v9.1-4-gbd29001
+CORE,Japan,2066,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2067,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2068,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2069,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2070,1.56407,gcam-v9.1-4-gbd29001
+CORE,Japan,2071,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2072,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2073,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2074,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2075,1.62782,gcam-v9.1-4-gbd29001
+CORE,Japan,2076,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2077,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2078,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2079,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2080,1.69663,gcam-v9.1-4-gbd29001
+CORE,Japan,2081,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2082,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2083,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2084,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2085,1.75953,gcam-v9.1-4-gbd29001
+CORE,Japan,2086,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2087,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2088,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2089,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2090,1.82139,gcam-v9.1-4-gbd29001
+CORE,Japan,2091,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2092,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2093,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2094,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2095,1.88522,gcam-v9.1-4-gbd29001
+CORE,Japan,2096,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2097,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2098,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2099,0,gcam-v9.1-4-gbd29001
+CORE,Japan,2100,1.94873,gcam-v9.1-4-gbd29001
+CORE,Mexico,1975,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,1990,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2005,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2010,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2015,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2021,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2025,1.02136,gcam-v9.1-4-gbd29001
+CORE,Mexico,2026,1.02927,gcam-v9.1-4-gbd29001
+CORE,Mexico,2027,1.03819,gcam-v9.1-4-gbd29001
+CORE,Mexico,2028,1.04772,gcam-v9.1-4-gbd29001
+CORE,Mexico,2029,1.05718,gcam-v9.1-4-gbd29001
+CORE,Mexico,2030,1.06815,gcam-v9.1-4-gbd29001
+CORE,Mexico,2031,1.08602,gcam-v9.1-4-gbd29001
+CORE,Mexico,2032,1.10376,gcam-v9.1-4-gbd29001
+CORE,Mexico,2033,1.12096,gcam-v9.1-4-gbd29001
+CORE,Mexico,2034,1.1385,gcam-v9.1-4-gbd29001
+CORE,Mexico,2035,1.15599,gcam-v9.1-4-gbd29001
+CORE,Mexico,2036,1.18499,gcam-v9.1-4-gbd29001
+CORE,Mexico,2037,1.20837,gcam-v9.1-4-gbd29001
+CORE,Mexico,2038,1.22859,gcam-v9.1-4-gbd29001
+CORE,Mexico,2039,1.24855,gcam-v9.1-4-gbd29001
+CORE,Mexico,2040,1.26865,gcam-v9.1-4-gbd29001
+CORE,Mexico,2041,1.30045,gcam-v9.1-4-gbd29001
+CORE,Mexico,2042,1.32192,gcam-v9.1-4-gbd29001
+CORE,Mexico,2043,1.34307,gcam-v9.1-4-gbd29001
+CORE,Mexico,2044,1.36425,gcam-v9.1-4-gbd29001
+CORE,Mexico,2045,1.38522,gcam-v9.1-4-gbd29001
+CORE,Mexico,2046,1.41034,gcam-v9.1-4-gbd29001
+CORE,Mexico,2047,1.43386,gcam-v9.1-4-gbd29001
+CORE,Mexico,2048,1.45549,gcam-v9.1-4-gbd29001
+CORE,Mexico,2049,1.47668,gcam-v9.1-4-gbd29001
+CORE,Mexico,2050,1.49678,gcam-v9.1-4-gbd29001
+CORE,Mexico,2051,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2052,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2053,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2054,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2055,1.34324,gcam-v9.1-4-gbd29001
+CORE,Mexico,2056,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2057,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2058,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2059,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2060,1.38374,gcam-v9.1-4-gbd29001
+CORE,Mexico,2061,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2062,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2063,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2064,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2065,1.42474,gcam-v9.1-4-gbd29001
+CORE,Mexico,2066,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2067,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2068,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2069,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2070,1.47062,gcam-v9.1-4-gbd29001
+CORE,Mexico,2071,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2072,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2073,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2074,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2075,1.5099,gcam-v9.1-4-gbd29001
+CORE,Mexico,2076,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2077,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2078,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2079,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2080,1.54684,gcam-v9.1-4-gbd29001
+CORE,Mexico,2081,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2082,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2083,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2084,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2085,1.57883,gcam-v9.1-4-gbd29001
+CORE,Mexico,2086,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2087,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2088,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2089,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2090,1.60887,gcam-v9.1-4-gbd29001
+CORE,Mexico,2091,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2092,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2093,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2094,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2095,1.63762,gcam-v9.1-4-gbd29001
+CORE,Mexico,2096,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2097,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2098,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2099,0,gcam-v9.1-4-gbd29001
+CORE,Mexico,2100,1.66529,gcam-v9.1-4-gbd29001
+CORE,Middle East,1975,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,1990,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2005,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2010,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2015,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2021,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2025,1.11234,gcam-v9.1-4-gbd29001
+CORE,Middle East,2026,1.11207,gcam-v9.1-4-gbd29001
+CORE,Middle East,2027,1.11769,gcam-v9.1-4-gbd29001
+CORE,Middle East,2028,1.12469,gcam-v9.1-4-gbd29001
+CORE,Middle East,2029,1.13509,gcam-v9.1-4-gbd29001
+CORE,Middle East,2030,1.14942,gcam-v9.1-4-gbd29001
+CORE,Middle East,2031,1.16614,gcam-v9.1-4-gbd29001
+CORE,Middle East,2032,1.18539,gcam-v9.1-4-gbd29001
+CORE,Middle East,2033,1.20564,gcam-v9.1-4-gbd29001
+CORE,Middle East,2034,1.22705,gcam-v9.1-4-gbd29001
+CORE,Middle East,2035,1.25036,gcam-v9.1-4-gbd29001
+CORE,Middle East,2036,1.28661,gcam-v9.1-4-gbd29001
+CORE,Middle East,2037,1.31497,gcam-v9.1-4-gbd29001
+CORE,Middle East,2038,1.3435,gcam-v9.1-4-gbd29001
+CORE,Middle East,2039,1.37264,gcam-v9.1-4-gbd29001
+CORE,Middle East,2040,1.40209,gcam-v9.1-4-gbd29001
+CORE,Middle East,2041,1.45517,gcam-v9.1-4-gbd29001
+CORE,Middle East,2042,1.48049,gcam-v9.1-4-gbd29001
+CORE,Middle East,2043,1.50568,gcam-v9.1-4-gbd29001
+CORE,Middle East,2044,1.53417,gcam-v9.1-4-gbd29001
+CORE,Middle East,2045,1.56517,gcam-v9.1-4-gbd29001
+CORE,Middle East,2046,1.59515,gcam-v9.1-4-gbd29001
+CORE,Middle East,2047,1.62629,gcam-v9.1-4-gbd29001
+CORE,Middle East,2048,1.65366,gcam-v9.1-4-gbd29001
+CORE,Middle East,2049,1.68074,gcam-v9.1-4-gbd29001
+CORE,Middle East,2050,1.70815,gcam-v9.1-4-gbd29001
+CORE,Middle East,2051,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2052,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2053,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2054,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2055,1.38308,gcam-v9.1-4-gbd29001
+CORE,Middle East,2056,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2057,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2058,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2059,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2060,1.4436,gcam-v9.1-4-gbd29001
+CORE,Middle East,2061,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2062,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2063,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2064,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2065,1.49584,gcam-v9.1-4-gbd29001
+CORE,Middle East,2066,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2067,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2068,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2069,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2070,1.5497,gcam-v9.1-4-gbd29001
+CORE,Middle East,2071,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2072,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2073,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2074,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2075,1.60966,gcam-v9.1-4-gbd29001
+CORE,Middle East,2076,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2077,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2078,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2079,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2080,1.67535,gcam-v9.1-4-gbd29001
+CORE,Middle East,2081,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2082,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2083,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2084,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2085,1.74273,gcam-v9.1-4-gbd29001
+CORE,Middle East,2086,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2087,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2088,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2089,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2090,1.81433,gcam-v9.1-4-gbd29001
+CORE,Middle East,2091,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2092,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2093,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2094,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2095,1.89122,gcam-v9.1-4-gbd29001
+CORE,Middle East,2096,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2097,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2098,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2099,0,gcam-v9.1-4-gbd29001
+CORE,Middle East,2100,1.9759,gcam-v9.1-4-gbd29001
+CORE,Pakistan,1975,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,1990,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2005,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2010,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2015,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2021,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2025,1.04063,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2026,1.0959,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2027,1.13349,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2028,1.161,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2029,1.18521,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2030,1.20269,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2031,1.24043,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2032,1.27063,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2033,1.29693,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2034,1.32183,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2035,1.33979,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2036,1.39242,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2037,1.42917,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2038,1.4617,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2039,1.49035,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2040,1.50647,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2041,1.5536,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2042,1.587,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2043,1.61523,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2044,1.63953,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2045,1.65728,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2046,1.69669,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2047,1.7297,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2048,1.74639,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2049,1.75855,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2050,1.77135,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2051,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2052,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2053,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2054,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2055,1.8162,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2056,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2057,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2058,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2059,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2060,1.84511,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2061,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2062,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2063,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2064,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2065,1.87945,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2066,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2067,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2068,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2069,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2070,1.91934,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2071,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2072,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2073,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2074,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2075,1.97913,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2076,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2077,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2078,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2079,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2080,2.05647,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2081,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2082,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2083,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2084,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2085,2.14775,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2086,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2087,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2088,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2089,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2090,2.2589,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2091,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2092,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2093,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2094,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2095,2.38771,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2096,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2097,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2098,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2099,0,gcam-v9.1-4-gbd29001
+CORE,Pakistan,2100,2.53463,gcam-v9.1-4-gbd29001
+CORE,Russia,1975,0,gcam-v9.1-4-gbd29001
+CORE,Russia,1990,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2005,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2010,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2015,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2021,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2025,0.939409,gcam-v9.1-4-gbd29001
+CORE,Russia,2026,0.936365,gcam-v9.1-4-gbd29001
+CORE,Russia,2027,0.956851,gcam-v9.1-4-gbd29001
+CORE,Russia,2028,0.98167,gcam-v9.1-4-gbd29001
+CORE,Russia,2029,1.00638,gcam-v9.1-4-gbd29001
+CORE,Russia,2030,1.04269,gcam-v9.1-4-gbd29001
+CORE,Russia,2031,1.05758,gcam-v9.1-4-gbd29001
+CORE,Russia,2032,1.08426,gcam-v9.1-4-gbd29001
+CORE,Russia,2033,1.11034,gcam-v9.1-4-gbd29001
+CORE,Russia,2034,1.13675,gcam-v9.1-4-gbd29001
+CORE,Russia,2035,1.17795,gcam-v9.1-4-gbd29001
+CORE,Russia,2036,1.21421,gcam-v9.1-4-gbd29001
+CORE,Russia,2037,1.24432,gcam-v9.1-4-gbd29001
+CORE,Russia,2038,1.27506,gcam-v9.1-4-gbd29001
+CORE,Russia,2039,1.30634,gcam-v9.1-4-gbd29001
+CORE,Russia,2040,1.3498,gcam-v9.1-4-gbd29001
+CORE,Russia,2041,1.38342,gcam-v9.1-4-gbd29001
+CORE,Russia,2042,1.41717,gcam-v9.1-4-gbd29001
+CORE,Russia,2043,1.45089,gcam-v9.1-4-gbd29001
+CORE,Russia,2044,1.48759,gcam-v9.1-4-gbd29001
+CORE,Russia,2045,1.53588,gcam-v9.1-4-gbd29001
+CORE,Russia,2046,1.56112,gcam-v9.1-4-gbd29001
+CORE,Russia,2047,1.60101,gcam-v9.1-4-gbd29001
+CORE,Russia,2048,1.63945,gcam-v9.1-4-gbd29001
+CORE,Russia,2049,1.67763,gcam-v9.1-4-gbd29001
+CORE,Russia,2050,1.72718,gcam-v9.1-4-gbd29001
+CORE,Russia,2051,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2052,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2053,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2054,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2055,1.60675,gcam-v9.1-4-gbd29001
+CORE,Russia,2056,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2057,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2058,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2059,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2060,1.72514,gcam-v9.1-4-gbd29001
+CORE,Russia,2061,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2062,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2063,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2064,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2065,1.8288,gcam-v9.1-4-gbd29001
+CORE,Russia,2066,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2067,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2068,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2069,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2070,1.94246,gcam-v9.1-4-gbd29001
+CORE,Russia,2071,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2072,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2073,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2074,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2075,2.05742,gcam-v9.1-4-gbd29001
+CORE,Russia,2076,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2077,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2078,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2079,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2080,2.20562,gcam-v9.1-4-gbd29001
+CORE,Russia,2081,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2082,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2083,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2084,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2085,2.36503,gcam-v9.1-4-gbd29001
+CORE,Russia,2086,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2087,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2088,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2089,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2090,2.5079,gcam-v9.1-4-gbd29001
+CORE,Russia,2091,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2092,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2093,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2094,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2095,2.64703,gcam-v9.1-4-gbd29001
+CORE,Russia,2096,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2097,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2098,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2099,0,gcam-v9.1-4-gbd29001
+CORE,Russia,2100,2.78693,gcam-v9.1-4-gbd29001
+CORE,South Africa,1975,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,1990,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2005,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2010,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2015,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2021,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2025,0.997709,gcam-v9.1-4-gbd29001
+CORE,South Africa,2026,1.01796,gcam-v9.1-4-gbd29001
+CORE,South Africa,2027,1.03233,gcam-v9.1-4-gbd29001
+CORE,South Africa,2028,1.04574,gcam-v9.1-4-gbd29001
+CORE,South Africa,2029,1.05958,gcam-v9.1-4-gbd29001
+CORE,South Africa,2030,1.07358,gcam-v9.1-4-gbd29001
+CORE,South Africa,2031,1.10555,gcam-v9.1-4-gbd29001
+CORE,South Africa,2032,1.13573,gcam-v9.1-4-gbd29001
+CORE,South Africa,2033,1.16533,gcam-v9.1-4-gbd29001
+CORE,South Africa,2034,1.19519,gcam-v9.1-4-gbd29001
+CORE,South Africa,2035,1.22426,gcam-v9.1-4-gbd29001
+CORE,South Africa,2036,1.42982,gcam-v9.1-4-gbd29001
+CORE,South Africa,2037,1.45934,gcam-v9.1-4-gbd29001
+CORE,South Africa,2038,1.48261,gcam-v9.1-4-gbd29001
+CORE,South Africa,2039,1.50666,gcam-v9.1-4-gbd29001
+CORE,South Africa,2040,1.52895,gcam-v9.1-4-gbd29001
+CORE,South Africa,2041,1.57083,gcam-v9.1-4-gbd29001
+CORE,South Africa,2042,1.60255,gcam-v9.1-4-gbd29001
+CORE,South Africa,2043,1.63114,gcam-v9.1-4-gbd29001
+CORE,South Africa,2044,1.65793,gcam-v9.1-4-gbd29001
+CORE,South Africa,2045,1.68297,gcam-v9.1-4-gbd29001
+CORE,South Africa,2046,1.72273,gcam-v9.1-4-gbd29001
+CORE,South Africa,2047,1.75718,gcam-v9.1-4-gbd29001
+CORE,South Africa,2048,1.78827,gcam-v9.1-4-gbd29001
+CORE,South Africa,2049,1.81724,gcam-v9.1-4-gbd29001
+CORE,South Africa,2050,1.84372,gcam-v9.1-4-gbd29001
+CORE,South Africa,2051,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2052,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2053,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2054,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2055,1.6935,gcam-v9.1-4-gbd29001
+CORE,South Africa,2056,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2057,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2058,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2059,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2060,1.80646,gcam-v9.1-4-gbd29001
+CORE,South Africa,2061,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2062,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2063,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2064,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2065,1.91039,gcam-v9.1-4-gbd29001
+CORE,South Africa,2066,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2067,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2068,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2069,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2070,2.01118,gcam-v9.1-4-gbd29001
+CORE,South Africa,2071,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2072,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2073,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2074,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2075,2.12994,gcam-v9.1-4-gbd29001
+CORE,South Africa,2076,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2077,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2078,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2079,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2080,2.26428,gcam-v9.1-4-gbd29001
+CORE,South Africa,2081,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2082,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2083,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2084,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2085,2.41036,gcam-v9.1-4-gbd29001
+CORE,South Africa,2086,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2087,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2088,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2089,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2090,2.56105,gcam-v9.1-4-gbd29001
+CORE,South Africa,2091,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2092,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2093,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2094,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2095,2.71491,gcam-v9.1-4-gbd29001
+CORE,South Africa,2096,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2097,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2098,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2099,0,gcam-v9.1-4-gbd29001
+CORE,South Africa,2100,2.87352,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,1975,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,1990,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2005,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2010,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2015,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2021,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2025,1.78325,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2026,2.03957,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2027,2.21196,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2028,2.36918,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2029,2.519,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2030,2.66177,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2031,2.81583,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2032,2.96061,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2033,3.0965,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2034,3.22602,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2035,3.34975,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2036,3.49483,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2037,3.61948,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2038,3.73231,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2039,3.84047,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2040,3.94469,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2041,4.03285,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2042,4.10917,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2043,4.18439,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2044,4.26032,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2045,4.33578,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2046,4.36845,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2047,4.40583,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2048,4.44354,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2049,4.48332,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2050,4.52548,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2051,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2052,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2053,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2054,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2055,3.26412,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2056,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2057,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2058,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2059,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2060,3.20886,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2061,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2062,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2063,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2064,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2065,3.24744,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2066,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2067,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2068,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2069,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2070,3.36631,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2071,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2072,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2073,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2074,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2075,3.54511,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2076,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2077,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2078,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2079,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2080,3.74881,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2081,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2082,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2083,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2084,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2085,3.95777,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2086,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2087,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2088,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2089,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2090,4.15968,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2091,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2092,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2093,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2094,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2095,4.36593,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2096,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2097,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2098,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2099,0,gcam-v9.1-4-gbd29001
+CORE,South America_Northern,2100,4.56623,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,1975,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,1990,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2005,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2010,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2015,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2021,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2025,1.01595,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2026,1.02374,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2027,1.03025,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2028,1.03837,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2029,1.04674,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2030,1.05496,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2031,1.07262,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2032,1.08915,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2033,1.10536,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2034,1.12201,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2035,1.13758,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2036,1.17025,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2037,1.19302,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2038,1.21258,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2039,1.23188,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2040,1.25028,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2041,1.28533,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2042,1.30733,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2043,1.32856,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2044,1.3496,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2045,1.36957,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2046,1.39802,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2047,1.42408,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2048,1.44797,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2049,1.471,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2050,1.49195,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2051,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2052,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2053,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2054,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2055,1.36883,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2056,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2057,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2058,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2059,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2060,1.44812,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2061,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2062,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2063,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2064,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2065,1.53069,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2066,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2067,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2068,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2069,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2070,1.61142,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2071,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2072,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2073,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2074,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2075,1.69246,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2076,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2077,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2078,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2079,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2080,1.77399,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2081,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2082,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2083,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2084,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2085,1.85413,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2086,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2087,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2088,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2089,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2090,1.93392,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2091,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2092,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2093,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2094,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2095,2.01457,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2096,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2097,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2098,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2099,0,gcam-v9.1-4-gbd29001
+CORE,South America_Southern,2100,2.09615,gcam-v9.1-4-gbd29001
+CORE,South Asia,1975,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,1990,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2005,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2010,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2015,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2021,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2025,0.979166,gcam-v9.1-4-gbd29001
+CORE,South Asia,2026,1.02179,gcam-v9.1-4-gbd29001
+CORE,South Asia,2027,1.05675,gcam-v9.1-4-gbd29001
+CORE,South Asia,2028,1.08978,gcam-v9.1-4-gbd29001
+CORE,South Asia,2029,1.12065,gcam-v9.1-4-gbd29001
+CORE,South Asia,2030,1.1481,gcam-v9.1-4-gbd29001
+CORE,South Asia,2031,1.18736,gcam-v9.1-4-gbd29001
+CORE,South Asia,2032,1.22321,gcam-v9.1-4-gbd29001
+CORE,South Asia,2033,1.25711,gcam-v9.1-4-gbd29001
+CORE,South Asia,2034,1.28898,gcam-v9.1-4-gbd29001
+CORE,South Asia,2035,1.31826,gcam-v9.1-4-gbd29001
+CORE,South Asia,2036,1.35712,gcam-v9.1-4-gbd29001
+CORE,South Asia,2037,1.39124,gcam-v9.1-4-gbd29001
+CORE,South Asia,2038,1.42239,gcam-v9.1-4-gbd29001
+CORE,South Asia,2039,1.45173,gcam-v9.1-4-gbd29001
+CORE,South Asia,2040,1.47903,gcam-v9.1-4-gbd29001
+CORE,South Asia,2041,1.51642,gcam-v9.1-4-gbd29001
+CORE,South Asia,2042,1.54913,gcam-v9.1-4-gbd29001
+CORE,South Asia,2043,1.58032,gcam-v9.1-4-gbd29001
+CORE,South Asia,2044,1.61043,gcam-v9.1-4-gbd29001
+CORE,South Asia,2045,1.63813,gcam-v9.1-4-gbd29001
+CORE,South Asia,2046,1.67542,gcam-v9.1-4-gbd29001
+CORE,South Asia,2047,1.70986,gcam-v9.1-4-gbd29001
+CORE,South Asia,2048,1.74247,gcam-v9.1-4-gbd29001
+CORE,South Asia,2049,1.77346,gcam-v9.1-4-gbd29001
+CORE,South Asia,2050,1.80234,gcam-v9.1-4-gbd29001
+CORE,South Asia,2051,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2052,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2053,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2054,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2055,1.59268,gcam-v9.1-4-gbd29001
+CORE,South Asia,2056,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2057,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2058,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2059,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2060,1.67915,gcam-v9.1-4-gbd29001
+CORE,South Asia,2061,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2062,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2063,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2064,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2065,1.77943,gcam-v9.1-4-gbd29001
+CORE,South Asia,2066,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2067,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2068,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2069,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2070,1.88481,gcam-v9.1-4-gbd29001
+CORE,South Asia,2071,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2072,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2073,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2074,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2075,1.98858,gcam-v9.1-4-gbd29001
+CORE,South Asia,2076,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2077,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2078,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2079,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2080,2.0851,gcam-v9.1-4-gbd29001
+CORE,South Asia,2081,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2082,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2083,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2084,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2085,2.18239,gcam-v9.1-4-gbd29001
+CORE,South Asia,2086,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2087,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2088,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2089,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2090,2.28469,gcam-v9.1-4-gbd29001
+CORE,South Asia,2091,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2092,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2093,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2094,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2095,2.39181,gcam-v9.1-4-gbd29001
+CORE,South Asia,2096,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2097,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2098,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2099,0,gcam-v9.1-4-gbd29001
+CORE,South Asia,2100,2.50338,gcam-v9.1-4-gbd29001
+CORE,South Korea,1975,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,1990,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2005,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2010,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2015,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2021,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2025,1.04011,gcam-v9.1-4-gbd29001
+CORE,South Korea,2026,1.0617,gcam-v9.1-4-gbd29001
+CORE,South Korea,2027,1.0836,gcam-v9.1-4-gbd29001
+CORE,South Korea,2028,1.1072,gcam-v9.1-4-gbd29001
+CORE,South Korea,2029,1.13273,gcam-v9.1-4-gbd29001
+CORE,South Korea,2030,1.16149,gcam-v9.1-4-gbd29001
+CORE,South Korea,2031,1.18578,gcam-v9.1-4-gbd29001
+CORE,South Korea,2032,1.21169,gcam-v9.1-4-gbd29001
+CORE,South Korea,2033,1.23975,gcam-v9.1-4-gbd29001
+CORE,South Korea,2034,1.27032,gcam-v9.1-4-gbd29001
+CORE,South Korea,2035,1.30403,gcam-v9.1-4-gbd29001
+CORE,South Korea,2036,1.52983,gcam-v9.1-4-gbd29001
+CORE,South Korea,2037,1.57365,gcam-v9.1-4-gbd29001
+CORE,South Korea,2038,1.59649,gcam-v9.1-4-gbd29001
+CORE,South Korea,2039,1.6228,gcam-v9.1-4-gbd29001
+CORE,South Korea,2040,1.65275,gcam-v9.1-4-gbd29001
+CORE,South Korea,2041,1.68821,gcam-v9.1-4-gbd29001
+CORE,South Korea,2042,1.71877,gcam-v9.1-4-gbd29001
+CORE,South Korea,2043,1.75124,gcam-v9.1-4-gbd29001
+CORE,South Korea,2044,1.78614,gcam-v9.1-4-gbd29001
+CORE,South Korea,2045,1.82356,gcam-v9.1-4-gbd29001
+CORE,South Korea,2046,1.85989,gcam-v9.1-4-gbd29001
+CORE,South Korea,2047,1.89732,gcam-v9.1-4-gbd29001
+CORE,South Korea,2048,1.9348,gcam-v9.1-4-gbd29001
+CORE,South Korea,2049,1.97368,gcam-v9.1-4-gbd29001
+CORE,South Korea,2050,2.01472,gcam-v9.1-4-gbd29001
+CORE,South Korea,2051,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2052,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2053,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2054,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2055,1.54978,gcam-v9.1-4-gbd29001
+CORE,South Korea,2056,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2057,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2058,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2059,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2060,1.63354,gcam-v9.1-4-gbd29001
+CORE,South Korea,2061,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2062,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2063,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2064,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2065,1.72902,gcam-v9.1-4-gbd29001
+CORE,South Korea,2066,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2067,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2068,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2069,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2070,1.7934,gcam-v9.1-4-gbd29001
+CORE,South Korea,2071,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2072,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2073,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2074,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2075,1.84265,gcam-v9.1-4-gbd29001
+CORE,South Korea,2076,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2077,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2078,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2079,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2080,1.91187,gcam-v9.1-4-gbd29001
+CORE,South Korea,2081,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2082,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2083,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2084,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2085,1.96469,gcam-v9.1-4-gbd29001
+CORE,South Korea,2086,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2087,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2088,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2089,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2090,1.98795,gcam-v9.1-4-gbd29001
+CORE,South Korea,2091,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2092,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2093,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2094,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2095,2.01961,gcam-v9.1-4-gbd29001
+CORE,South Korea,2096,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2097,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2098,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2099,0,gcam-v9.1-4-gbd29001
+CORE,South Korea,2100,2.05737,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,1975,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,1990,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2005,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2010,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2015,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2021,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2025,1.07831,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2026,1.11553,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2027,1.14614,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2028,1.17623,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2029,1.20621,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2030,1.23404,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2031,1.27102,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2032,1.30506,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2033,1.33843,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2034,1.3712,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2035,1.40137,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2036,1.44458,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2037,1.47634,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2038,1.50411,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2039,1.53166,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2040,1.55691,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2041,1.59033,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2042,1.61714,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2043,1.64299,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2044,1.66933,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2045,1.69322,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2046,1.72399,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2047,1.75114,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2048,1.77677,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2049,1.80152,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2050,1.82332,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2051,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2052,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2053,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2054,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2055,1.46426,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2056,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2057,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2058,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2059,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2060,1.521,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2061,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2062,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2063,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2064,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2065,1.58297,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2066,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2067,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2068,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2069,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2070,1.64829,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2071,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2072,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2073,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2074,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2075,1.71636,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2076,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2077,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2078,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2079,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2080,1.79037,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2081,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2082,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2083,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2084,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2085,1.8715,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2086,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2087,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2088,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2089,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2090,1.95677,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2091,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2092,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2093,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2094,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2095,2.0468,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2096,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2097,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2098,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2099,0,gcam-v9.1-4-gbd29001
+CORE,Southeast Asia,2100,2.1406,gcam-v9.1-4-gbd29001
+CORE,Taiwan,1975,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,1990,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2005,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2010,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2015,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2021,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2025,1.10122,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2026,1.12332,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2027,1.14823,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2028,1.17439,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2029,1.20196,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2030,1.23152,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2031,1.24995,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2032,1.27068,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2033,1.293,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2034,1.31699,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2035,1.34282,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2036,1.35219,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2037,1.36517,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2038,1.37886,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2039,1.39375,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2040,1.41011,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2041,1.42888,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2042,1.44895,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2043,1.47012,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2044,1.49258,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2045,1.5164,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2046,1.54072,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2047,1.56598,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2048,1.59253,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2049,1.62008,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2050,1.64921,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2051,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2052,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2053,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2054,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2055,1.48949,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2056,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2057,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2058,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2059,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2060,1.58012,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2061,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2062,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2063,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2064,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2065,1.67664,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2066,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2067,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2068,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2069,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2070,1.74664,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2071,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2072,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2073,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2074,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2075,1.80182,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2076,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2077,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2078,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2079,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2080,1.87818,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2081,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2082,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2083,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2084,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2085,1.96404,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2086,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2087,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2088,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2089,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2090,2.03451,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2091,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2092,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2093,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2094,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2095,2.12007,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2096,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2097,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2098,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2099,0,gcam-v9.1-4-gbd29001
+CORE,Taiwan,2100,2.20929,gcam-v9.1-4-gbd29001
+CORE,Ukraine,1975,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,1990,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2005,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2010,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2015,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2021,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2025,0.470746,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2026,0.518696,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2027,0.561233,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2028,0.602478,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2029,0.644106,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2030,0.683845,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2031,0.730022,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2032,0.771791,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2033,0.813442,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2034,0.855226,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2035,0.894523,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2036,0.99575,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2037,1.04099,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2038,1.08695,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2039,1.13293,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2040,1.17604,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2041,1.23112,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2042,1.27471,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2043,1.31902,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2044,1.3631,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2045,1.40431,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2046,1.45658,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2047,1.50621,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2048,1.55771,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2049,1.61052,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2050,1.6603,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2051,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2052,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2053,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2054,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2055,1.91596,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2056,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2057,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2058,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2059,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2060,2.14117,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2061,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2062,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2063,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2064,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2065,2.31369,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2066,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2067,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2068,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2069,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2070,2.45429,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2071,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2072,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2073,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2074,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2075,2.62161,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2076,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2077,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2078,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2079,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2080,2.81412,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2081,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2082,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2083,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2084,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2085,2.9873,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2086,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2087,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2088,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2089,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2090,3.16229,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2091,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2092,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2093,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2094,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2095,3.31825,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2096,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2097,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2098,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2099,0,gcam-v9.1-4-gbd29001
+CORE,Ukraine,2100,3.48375,gcam-v9.1-4-gbd29001
+CORE,USA,1975,0,gcam-v9.1-4-gbd29001
+CORE,USA,1990,0,gcam-v9.1-4-gbd29001
+CORE,USA,2005,0,gcam-v9.1-4-gbd29001
+CORE,USA,2010,0,gcam-v9.1-4-gbd29001
+CORE,USA,2015,0,gcam-v9.1-4-gbd29001
+CORE,USA,2021,0,gcam-v9.1-4-gbd29001
+CORE,USA,2025,1.00666,gcam-v9.1-4-gbd29001
+CORE,USA,2026,1.01245,gcam-v9.1-4-gbd29001
+CORE,USA,2027,1.02013,gcam-v9.1-4-gbd29001
+CORE,USA,2028,1.02881,gcam-v9.1-4-gbd29001
+CORE,USA,2029,1.03813,gcam-v9.1-4-gbd29001
+CORE,USA,2030,1.04857,gcam-v9.1-4-gbd29001
+CORE,USA,2031,1.0564,gcam-v9.1-4-gbd29001
+CORE,USA,2032,1.06513,gcam-v9.1-4-gbd29001
+CORE,USA,2033,1.07466,gcam-v9.1-4-gbd29001
+CORE,USA,2034,1.08481,gcam-v9.1-4-gbd29001
+CORE,USA,2035,1.0957,gcam-v9.1-4-gbd29001
+CORE,USA,2036,1.10796,gcam-v9.1-4-gbd29001
+CORE,USA,2037,1.11833,gcam-v9.1-4-gbd29001
+CORE,USA,2038,1.12826,gcam-v9.1-4-gbd29001
+CORE,USA,2039,1.13849,gcam-v9.1-4-gbd29001
+CORE,USA,2040,1.14931,gcam-v9.1-4-gbd29001
+CORE,USA,2041,1.16279,gcam-v9.1-4-gbd29001
+CORE,USA,2042,1.17319,gcam-v9.1-4-gbd29001
+CORE,USA,2043,1.18372,gcam-v9.1-4-gbd29001
+CORE,USA,2044,1.1946,gcam-v9.1-4-gbd29001
+CORE,USA,2045,1.20601,gcam-v9.1-4-gbd29001
+CORE,USA,2046,1.21853,gcam-v9.1-4-gbd29001
+CORE,USA,2047,1.23106,gcam-v9.1-4-gbd29001
+CORE,USA,2048,1.24316,gcam-v9.1-4-gbd29001
+CORE,USA,2049,1.25543,gcam-v9.1-4-gbd29001
+CORE,USA,2050,1.26805,gcam-v9.1-4-gbd29001
+CORE,USA,2051,0,gcam-v9.1-4-gbd29001
+CORE,USA,2052,0,gcam-v9.1-4-gbd29001
+CORE,USA,2053,0,gcam-v9.1-4-gbd29001
+CORE,USA,2054,0,gcam-v9.1-4-gbd29001
+CORE,USA,2055,1.21904,gcam-v9.1-4-gbd29001
+CORE,USA,2056,0,gcam-v9.1-4-gbd29001
+CORE,USA,2057,0,gcam-v9.1-4-gbd29001
+CORE,USA,2058,0,gcam-v9.1-4-gbd29001
+CORE,USA,2059,0,gcam-v9.1-4-gbd29001
+CORE,USA,2060,1.26246,gcam-v9.1-4-gbd29001
+CORE,USA,2061,0,gcam-v9.1-4-gbd29001
+CORE,USA,2062,0,gcam-v9.1-4-gbd29001
+CORE,USA,2063,0,gcam-v9.1-4-gbd29001
+CORE,USA,2064,0,gcam-v9.1-4-gbd29001
+CORE,USA,2065,1.30364,gcam-v9.1-4-gbd29001
+CORE,USA,2066,0,gcam-v9.1-4-gbd29001
+CORE,USA,2067,0,gcam-v9.1-4-gbd29001
+CORE,USA,2068,0,gcam-v9.1-4-gbd29001
+CORE,USA,2069,0,gcam-v9.1-4-gbd29001
+CORE,USA,2070,1.34705,gcam-v9.1-4-gbd29001
+CORE,USA,2071,0,gcam-v9.1-4-gbd29001
+CORE,USA,2072,0,gcam-v9.1-4-gbd29001
+CORE,USA,2073,0,gcam-v9.1-4-gbd29001
+CORE,USA,2074,0,gcam-v9.1-4-gbd29001
+CORE,USA,2075,1.39526,gcam-v9.1-4-gbd29001
+CORE,USA,2076,0,gcam-v9.1-4-gbd29001
+CORE,USA,2077,0,gcam-v9.1-4-gbd29001
+CORE,USA,2078,0,gcam-v9.1-4-gbd29001
+CORE,USA,2079,0,gcam-v9.1-4-gbd29001
+CORE,USA,2080,1.4432,gcam-v9.1-4-gbd29001
+CORE,USA,2081,0,gcam-v9.1-4-gbd29001
+CORE,USA,2082,0,gcam-v9.1-4-gbd29001
+CORE,USA,2083,0,gcam-v9.1-4-gbd29001
+CORE,USA,2084,0,gcam-v9.1-4-gbd29001
+CORE,USA,2085,1.48866,gcam-v9.1-4-gbd29001
+CORE,USA,2086,0,gcam-v9.1-4-gbd29001
+CORE,USA,2087,0,gcam-v9.1-4-gbd29001
+CORE,USA,2088,0,gcam-v9.1-4-gbd29001
+CORE,USA,2089,0,gcam-v9.1-4-gbd29001
+CORE,USA,2090,1.52823,gcam-v9.1-4-gbd29001
+CORE,USA,2091,0,gcam-v9.1-4-gbd29001
+CORE,USA,2092,0,gcam-v9.1-4-gbd29001
+CORE,USA,2093,0,gcam-v9.1-4-gbd29001
+CORE,USA,2094,0,gcam-v9.1-4-gbd29001
+CORE,USA,2095,1.57119,gcam-v9.1-4-gbd29001
+CORE,USA,2096,0,gcam-v9.1-4-gbd29001
+CORE,USA,2097,0,gcam-v9.1-4-gbd29001
+CORE,USA,2098,0,gcam-v9.1-4-gbd29001
+CORE,USA,2099,0,gcam-v9.1-4-gbd29001
+CORE,USA,2100,1.61775,gcam-v9.1-4-gbd29001
