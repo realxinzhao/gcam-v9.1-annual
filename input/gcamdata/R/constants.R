@@ -35,7 +35,7 @@ MODEL_BASE_YEARS        <- unique(c(1975, 1990, 2005, 2010, 2015, max(HISTORICAL
 MODEL_FINAL_BASE_YEAR   <- max(MODEL_BASE_YEARS)
 
 # Future (not calibrated) model periods. Only level 2 chunks should reference these
-MODEL_FUTURE_YEARS      <- seq(2025, 2100, 5)
+MODEL_FUTURE_YEARS      <- seq(2025, 2100, 1)
 
 # Near-term alignment year for harmonizing drivers and parameters across model scenarios
 # E.g., results across SSPs in MODEL_SCENARIO_ALIGN_YEAR should be the same
