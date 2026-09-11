@@ -43,7 +43,7 @@ module_energy_gas_trade_xml <- function(command, ...) {
       "L281.TechAccountInput_NG_entrade")
 
   MODULE_OUTPUTS <-
-    c("gas_trade.xml")
+    c(XML = "gas_trade.xml")
 
   if(command == driver.DECLARE_INPUTS) {
     return(MODULE_INPUTS)

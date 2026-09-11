@@ -32,7 +32,7 @@ module_aglu_bio_trade_xml <- function(command, ...) {
       "L281.GlobalTechAccountInput_entrade")
 
   MODULE_OUTPUTS <-
-    c("bio_trade.xml")
+    c(XML = "bio_trade.xml")
 
   if(command == driver.DECLARE_INPUTS) {
     return(MODULE_INPUTS)
